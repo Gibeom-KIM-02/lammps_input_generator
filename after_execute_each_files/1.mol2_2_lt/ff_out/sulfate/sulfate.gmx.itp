@@ -1,0 +1,52 @@
+;---------------------------------------------
+;        Generated with LigParGen 
+;        William L. Jorgensen Lab
+;     Author: israel.cabezadevaca@yale.edu
+;    OPLS Force Field with CM1A derived Atomic Charges
+;---------------------------------------------
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+    1               3              yes            0.5     0.5
+
+[ atomtypes ]
+  opls_800    SY    32.0670     0.000    A    3.55000E-01   1.04600E+00
+  opls_801    OY    15.9990     0.000    A    2.96000E-01   7.11280E-01
+  opls_802    OY    15.9990     0.000    A    2.96000E-01   7.11280E-01
+  opls_803    OY    15.9990     0.000    A    2.96000E-01   7.11280E-01
+  opls_804    OY    15.9990     0.000    A    2.96000E-01   7.11280E-01
+
+[ moleculetype ]
+; Name               nrexcl
+  "SO                  3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass
+     1   opls_800      1    "SO   S00      1     1.3845    32.0670 
+     2   opls_801      1    "SO   O01      1    -0.8461    15.9990 
+     3   opls_802      1    "SO   O02      1    -0.8461    15.9990 
+     4   opls_803      1    "SO   O03      1    -0.8461    15.9990 
+     5   opls_804      1    "SO   O04      1    -0.8462    15.9990 
+
+[ bonds ]
+;  ai    aj   funct      c0       c1
+    2    1    1      0.1440    585760.000
+    3    1    1      0.1440    585760.000
+    4    1    1      0.1440    585760.000
+    5    1    1      0.1440    585760.000
+
+[angles]
+;  ai    aj   ak  funct      c0       c1 
+    3    1    2    1       123.000    870.272
+    4    1    2    1       123.000    870.272
+    5    1    2    1       123.000    870.272
+    4    1    3    1       123.000    870.272
+    5    1    3    1       123.000    870.272
+    5    1    4    1       123.000    870.272
+[ dihedrals ]
+;  PROPER DIHEDRAL ANGLES
+;  ai    aj   ak   al funct      c0       c1      c2      c3       c4     c5
+[ dihedrals ]
+;IMPROPER DIHEDRAL ANGLES
+;  ai    aj   ak   al funct      c0       c1      c2      c3       c4     c5
+[ pairs ]
+;  ai    aj funct

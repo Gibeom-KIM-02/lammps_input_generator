@@ -1,0 +1,55 @@
+# 3. Naming rules
+# The key (e.g., CO2, sulfate) must match the .mol2 file name in input_files/, case-sensitive.
+# Example: input_files/CO2.mol2 → CO2: in the YAML
+# Example: input_files/sulfate.mol2 → sulfate: in the YAML
+# res is a 2–4 character code (uppercase by convention) that will appear in LigParGen output, PDB, etc.
+# charge is the integer or float charge (e.g., 0, -2, -1.5).
+
+# 4. Add or edit molecules
+# Just repeat the block format for every molecule:
+# 
+#   glucose:
+#     res: GLC
+#     charge: 0
+
+# 6. (Optional) Add more keys later
+# You can add other parameters as needed, for example:
+# 
+#   ATP:
+#     res: ATP
+#     charge: -4
+#     cgen: CM1A-LBCC     # (if you want to use a different charge generator for some molecules)
+# Just update the shell/Python script to read these extra keys if/when you need them.
+
+# 7. Per-atom charges file: config/charges.yaml
+# -------------------------------------------------
+# This YAML file contains per-atom charges for each molecule.
+# These charges are ONLY used to overwrite the charge column in the Data Atoms section
+# of the .lt files (via lt_postprocess.py), ensuring consistency with forcefield conventions.
+
+# The top-level key (e.g., CO2, sulfate) **must match** the .mol2 filename (case-sensitive).
+# Each molecule block contains a mapping from atomtype name to charge value (float).
+# The atomtype names MUST match the final atom naming in the .lt file
+# (i.e., after any custom naming is applied, such as CO2_C, SO4_O1, ...).
+
+# Example config/charges.yaml content:
+#
+# CO2:
+#   CO2_C:  0.700       # C charge
+#   CO2_O1: -0.350      # O1 charge
+#   CO2_O2: -0.350      # O2 charge
+#
+# sulfate:
+#   SO4_S:   1.472219
+#   SO4_O1: -0.868055
+#   SO4_O2: -0.868055
+#   SO4_O3: -0.868055
+#   SO4_O4: -0.868055
+#
+# If a molecule or atomtype is NOT listed here, lt_postprocess.py will leave the original charge as-is.
+
+# Usage summary:
+#   - Place config/charges.yaml at the top level of your project (same as config/molecules.yaml)
+#   - Edit or add charge blocks as needed
+#   - No need to touch type_name/*.yaml files for charge purposes (those files are only for atom/bond naming)
+

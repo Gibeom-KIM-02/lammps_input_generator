@@ -1,0 +1,13 @@
+# config/charges.yaml
+CO2:
+  CO2_C:  0.700       # Madura 2009 (OPLS-AA 2024)
+  CO2_O1: -0.350
+  CO2_O2: -0.350
+
+Sulfate:
+  SO4_S:   1.472219   # literature OPLS-AA 
+  SO4_O1: -0.868055
+  SO4_O2: -0.868055
+  SO4_O3: -0.868055
+  SO4_O4: -0.868055
+

@@ -1,0 +1,21 @@
+*Generated with LigParGen (israel.cabezadevaca@yale.edu)
+
+{"SO}
+[atoms]
+   1   S00       S800         1.3845
+   2   O01       O801        -0.8461
+   3   O02       O802        -0.8461
+   4   O03       O803        -0.8461
+   5   O04       O804        -0.8461
+
+[bonds]
+O01       S00       
+O02       S00       
+O03       S00       
+O04       S00       
+
+[impropers]
+
+[charge_groups]
+S00 O01 O02 O03 O04 
+

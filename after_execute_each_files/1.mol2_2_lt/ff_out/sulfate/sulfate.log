@@ -1,0 +1,52 @@
+2025-08-06 21:15:27 — INFO — INPUT FILE: /home/users/Beom/work/1.Project/2.CO2RR_anioneffect_Beom/automization_lammps_input/after_execute_each_files/1.mol2_2_lt/input_files/sulfate.mol2
+2025-08-06 21:15:27 — INFO — NUMBER OF OPTIMIZATIONS: 0
+2025-08-06 21:15:27 — INFO — Parsing molecule from input: /home/users/Beom/work/1.Project/2.CO2RR_anioneffect_Beom/automization_lammps_input/after_execute_each_files/1.mol2_2_lt/input_files/sulfate.mol2
+2025-08-06 21:15:27 — INFO — Retreiving atom names form MOL:/home/users/Beom/work/1.Project/2.CO2RR_anioneffect_Beom/automization_lammps_input/after_execute_each_files/1.mol2_2_lt/input_files/sulfate.mol2
+2025-08-06 21:15:27 — INFO — Center of mass position:  0.000  0.000 -0.001
+2025-08-06 21:15:27 — INFO — Closest atom to the center of mass: S  0 with distance :  0.001  (A) 
+2025-08-06 21:15:27 — WARNING — AUTO DETECTED CHARGE: 0  USER INPUT CHARGE: -2  (NOT MATCHING CHARGES)
+2025-08-06 21:15:27 — INFO — MOLECULE CHARGE USED: -2
+2025-08-06 21:15:27 — WARNING — INCOMPATIBLE CHARGE ALGORTIHM CM1A-LBCC with charged molecules
+2025-08-06 21:15:27 — WARNING — AUTO ASSIGNED CM1A charge model
+2025-08-06 21:15:27 — INFO — CHARGE ALGORITHM USED: CM1A
+2025-08-06 21:15:27 — INFO — RESIDUE NAME USED: "SO4"
+2025-08-06 21:15:27 — INFO — Parsing Bonds, Angles and dihedrals
+2025-08-06 21:15:27 — INFO — Parsing Atoms
+2025-08-06 21:15:27 — INFO — --- SUMMARY MOLECULE STRUCTURE ---
+2025-08-06 21:15:27 — INFO — Number of Atoms: 8
+2025-08-06 21:15:27 — INFO — Number of Variable Bonds: 4
+2025-08-06 21:15:27 — INFO — Number of Additional Bonds: 0
+2025-08-06 21:15:27 — INFO — Number of Variable Angles: 3
+2025-08-06 21:15:27 — INFO — Number of Additional Angles: 3
+2025-08-06 21:15:27 — INFO — Number of Variable Torsions: 0
+2025-08-06 21:15:27 — INFO — Number of Additional Torsions: 0
+2025-08-06 21:15:27 — INFO — Number of excluded Atoms: 0
+2025-08-06 21:15:27 — INFO — Generating Zmat
+2025-08-06 21:15:27 — INFO — Running BOSS
+2025-08-06 21:15:28 — INFO — Parsing BOSS molecule outputs
+2025-08-06 21:15:28 — WARNING — Duplicate names in input file found! Using new generated names
+2025-08-06 21:15:28 — WARNING — Duplicate names in input file found! Using new generated names
+2025-08-06 21:15:28 — WARNING — Duplicate names in input file found! Using new generated names
+2025-08-06 21:15:28 — WARNING — Duplicate names in input file found! Using new generated names
+2025-08-06 21:15:28 — WARNING — Duplicate names in input file found! Using new generated names
+2025-08-06 21:15:28 — INFO — Generating Q inputs
+2025-08-06 21:15:28 — INFO — Generating Gromacs inputs
+2025-08-06 21:15:28 — INFO — Generating CHARMM/NAMD inputs
+2025-08-06 21:15:28 — INFO — Generating TINKER inputs
+2025-08-06 21:15:28 — INFO — Generating openMM inputs
+2025-08-06 21:15:28 — INFO — Generating PQR inputs
+2025-08-06 21:15:28 — INFO — Generating DESMOND inputs
+2025-08-06 21:15:28 — INFO — Generating LAMMPS inputs
+2025-08-06 21:15:28 — INFO — Generating XPLOR inputs
+2025-08-06 21:15:28 — INFO —             
+    
+                    LigParGen finished succesfully!
+    
+    Please do not forget to cite the following references: 
+
+        1. LigParGen web server: an automatic OPLS-AA parameter generator for organic ligands  
+           Leela S. Dodda  Israel Cabeza de Vaca  Julian Tirado-Rives William L. Jorgensen 
+           Nucleic Acids Research, Volume 45, Issue W1, 3 July 2017, Pages W331–W336
+
+        2. 1.14*CM1A-LBCC: Localized Bond-Charge Corrected CM1A Charges for Condensed-Phase Simulations
+    
