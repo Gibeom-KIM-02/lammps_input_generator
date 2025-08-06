@@ -1,0 +1,31 @@
+# LAMMPS NPT Equilibration Input
+# ------------------------------
+
+variable datapath string build
+
+include         "build/system.in.init"
+read_data       "system_after_min.data"
+include         "build/system.in.charges"
+include         "build/system.in.settings"
+
+# Optional: randomize initial velocities at 300 K
+velocity all create 300.0 4928459 mom yes rot yes dist gaussian
+
+# Optional: Short Langevin run to shake up the box
+fix fxlan all langevin  300.0 300.0  120.0  10981
+fix fxnph all nph  iso 100.0 100.0 1000.0
+run 2000
+unfix fxlan
+unfix fxnph
+
+# Main NPT run
+fix fxnpt all npt temp 300.0 300.0 100.0 iso 100.0 100.0 1000.0 drag 1.0
+
+dump dumpnpt all custom 2000 traj_npt.lammpstrj id mol type x y z
+thermo 500
+timestep 2.0
+run 100000
+
+unfix fxnpt
+write_data   system_after_npt.data
+

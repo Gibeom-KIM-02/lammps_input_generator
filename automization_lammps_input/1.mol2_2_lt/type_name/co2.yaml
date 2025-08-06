@@ -1,0 +1,11 @@
+# type_name/CO2.yaml
+atom:
+  type1: CO2_C
+  type2: CO2_O1
+  type3: CO2_O2
+bond:
+  type1: CO2_C_O
+  type2: CO2_C_O
+angle:
+  type1: CO2_O_C_O 
+    

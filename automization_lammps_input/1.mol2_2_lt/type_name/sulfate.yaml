@@ -1,0 +1,20 @@
+# type_name/sulfate.yaml
+atom:
+  type1: SO4_S
+  type2: SO4_O1
+  type3: SO4_O2
+  type4: SO4_O3
+  type5: SO4_O4
+bond:
+  type1: SO4_S_O
+  type2: SO4_S_O
+  type3: SO4_S_O
+  type4: SO4_S_O
+angle:
+  type1: SO4_O_S_O
+  type2: SO4_O_S_O
+  type3: SO4_O_S_O
+  type4: SO4_O_S_O
+  type5: SO4_O_S_O
+  type6: SO4_O_S_O
+
