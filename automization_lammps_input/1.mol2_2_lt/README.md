@@ -7,7 +7,7 @@ It uses [LigParGen](https://zarbi.chem.yale.edu/ligpargen/) for OPLS-AA paramete
 
 ## 📁 Directory Structure
 
-project_root/  
+1.mol2_2_lt/  
 ├── input_files/ # Input .mol2 molecules  
 │ ├── CO2.mol2  
 │ └── sulfate.mol2  
