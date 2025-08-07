@@ -4,7 +4,7 @@ A simple pipeline for generating FCC metal slab structures as LAMMPS data files,
 
 ---
 
-## Directory Structure
+## 📁 Directory Structure
 
 slab_2_lt/  
 ├─ config/  
