@@ -1,4 +1,4 @@
-# run_moltemplate: Automated Moltemplate System Builder
+# 3.run_moltemplate Workflow
 
 This project provides a robust, YAML-configurable workflow for building `system.lt` files  
 used with [moltemplate](https://moltemplate.org/) and [LAMMPS](https://lammps.org/).  
@@ -9,26 +9,29 @@ Finally, by running moltemplate, this directory generates input files for lammps
 
 ## 📦 Directory Structure Example
 
-run_moltemplate/
-├── make_system_lt.py # Python automation script to make system.lt
-├── config/
-│ ├── molecules.yaml # Main molecule & system config (YAML)
-│ └── settings.yaml # All global force field & LAMMPS settings
-├── molecules_yaml_help.md # Detailed YAML help (optional)
-├── README.md # This file
-├── README_run.sh # Example run script (contains moltemplate run)
-│
-├── input_files_structure/
-│ └── Ag_sulfate_CO2_solvated.xyz
-│
-├── input_files_lt/
-│ ├── CO2.lt
-│ ├── sulfate.lt
-│ └── tip3p_2004_oplsaa2024.lt
-│
-└── input_files_lt_adsorbent/
-└── Ag.lt
-
+run_moltemplate/  
+├── config/  
+│ ├── molecules.yaml # Main molecule & system config (YAML)  
+│ ├── molecules_yaml_help.md # Detailed YAML help  
+│ └── settings.yaml # All global force field & LAMMPS settings  
+│  
+├── input_files_lt/  
+│ ├── CO2.lt  
+│ ├── sulfate.lt  
+│ ├── tip3p_2004_oplsaa2024.lt  
+│ └── ff.lt # (optional)
+│  
+├── input_files_lt_adsorbent/ 
+│ └── Ag.lt  
+│  
+├── input_files_structure/  
+│ └── Ag_sulfate_CO2_solvated.xyz  
+│  
+├── make_system_lt.py # Python automation script to make system.lt  
+│  
+├── README_run.sh # Example run script (contains moltemplate run)  
+│  
+└── README.md  
 
 ---
 
