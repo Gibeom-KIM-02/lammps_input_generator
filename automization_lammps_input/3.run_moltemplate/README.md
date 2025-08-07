@@ -64,7 +64,14 @@ run_moltemplate/
     ```
 
 7. **(Optional) Visualize or check the generated files before simulation.**
+       
 
+       
+    **BTW, you can easily run whole workflow by using `README_run.sh`**
+    ```bash
+    bash README_run.sh
+    ```
+    
 ---
 
 ## ⚠️ Important: .lt File Import Paths
