@@ -102,7 +102,7 @@ impossible structures.
 | Step | Action |
 |------|--------|
 | **1. Inspect the XYZ** | Identify the exact sequence of molecule blocks, e.g.<br>`Ag  →  CO₂  →  H₂O  →  SO₄²⁻`. |
-| **2. Mirror that order in `molecules.yaml`** | The YAML mapping is order-preserving. Arrange molecules exactly as in the XYZ:<br>```yaml<br>molecules:<br>  AgSlab:   …<br>  CO2:      …<br>  TIP3P_2004: …  # water<br>  Sulfate:  …<br>``` |
+| **2. Mirror that order in `molecules.yaml`** | The YAML mapping is order-preserving. Arrange molecules exactly as in the XYZ:<br>```yaml<br>molecules:<br>  AgSlab:   …<br>  CO2:      …<br>  TIP3P: …  # water<br>  sulfate:  …<br>``` |
 | **3. Re-check after every repack** | If you shuffle, add, or remove species in PACKMOL / ASE, update the YAML list **before** running `make_system_lt.py`. |
 
 > **Pro-tip:** Keep your XYZ-generation script and `molecules.yaml` under
@@ -137,19 +137,16 @@ impossible structures.
     class_name: "Na"
     count_rule: "elem['Na']"
     charge: +1
+```
 
 ❗ Troubleshooting
 
-If atom counts are wrong or a molecule is missing, check your count_rule expressions and .lt file class names.
-
-If you get LAMMPS errors about missing pair_coeff/bond_coeff, ensure your .lt files and force-field settings are consistent.
-
-If your simulation parameters are not being set as expected, check config/settings.yaml and ensure commands are written as shown in the help.
+- If atom counts are wrong or a molecule is missing, check your count_rule expressions and .lt file class names.  
+- If you get LAMMPS errors about missing pair_coeff/bond_coeff, ensure your .lt files and force-field settings are consistent.  
+- If your simulation parameters are not being set as expected, check config/settings.yaml and ensure commands are written as shown in the help.  
 
 📖 Further Reading
 
-See molecules_yaml_help.md for full YAML key documentation and advanced tips.
-
-Moltemplate documentation: https://moltemplate.org/
-
-LAMMPS documentation: https://lammps.org/doc/Manual.html
+- See molecules_yaml_help.md for full YAML key documentation and advanced tips.  
+- Moltemplate documentation: https://moltemplate.org/  
+- LAMMPS documentation: https://lammps.org/doc/Manual.html  
