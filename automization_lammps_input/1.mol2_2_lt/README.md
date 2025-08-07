@@ -1,4 +1,4 @@
-# LAMMPS Moltemplate LigParGen Workflow
+# 1.mol2_2_lt Workflow
 
 This repository provides an **automated workflow** for converting `.mol2` files into LAMMPS-ready Moltemplate `.lt` files with **custom forcefield types**.  
 It uses [LigParGen](https://zarbi.chem.yale.edu/ligpargen/) for OPLS-AA parameterization, [ltemplify.py](https://moltemplate.org/), and a **post-processing script** that allows you to assign chemical-type names to atoms, bonds, angles, etc.
@@ -20,7 +20,7 @@ project_root/
 │  
 ├── config/  
 │ ├── molecules.yaml # Molecule charge/residue config  
-│ └── charges.yaml   # (NEW) Per-atom charge config  
+│ └── charges.yaml   # Per-atom charge config  
 │  
 ├── type_name/ # (Optional) Custom type naming for molecules (yaml)  
 │ ├── co2.yaml  
@@ -38,7 +38,7 @@ project_root/
 ## Quick Start
 
 1. **Put .mol2 files in `input_files/`**
-2. **Configure `config/molecules.yaml`** (see below)
+2. **Configure `config/molecules.yaml` `config/charges.yaml`** (see below)
 3. **(Optional) Add custom naming yaml in `type_name/`**  
    e.g., `type_name/co2.yaml`
 4. **(Optional) Set up per-atom charges in `config/charges.yaml`**  
@@ -71,10 +71,9 @@ molecules:
   sulfate:
     res: SO4
     charge: -2
+```
 
----
-
-Example: config/charges.yaml (Optional: Per-Atom Charge Assignment)
+## Example: `config/charges.yaml` (Optional: Per-Atom Charge Assignment)
 You can provide per-atom charges for each molecule by editing config/charges.yaml.
 This file lets you overwrite the charge column in the .lt files, ensuring your force field is consistent with literature or your own conventions.
 
@@ -94,17 +93,13 @@ sulfate:
   SO4_O2: -0.868055
   SO4_O3: -0.868055
   SO4_O4: -0.868055
-
 ```
 
 - If a molecule or atomtype is not listed, the original charge is used.
 - You only need to specify atomtypes you want to override.
 
----
-
-(Optional) Set Up Custom Type Naming
-If you want atoms/bonds/angles named chemically (e.g., CO2_C), create a YAML file in type_name/:
-File: type_name/co2.yaml
+## (Optional) Set Up Custom Type Naming
+If you want atoms/bonds/angles named chemically (e.g., CO2_C), create a YAML file in `type_name/:File`: `type_name/co2.yaml`
 
 Example:
 
@@ -118,7 +113,6 @@ bond:
   type2: CO2_C_O
 angle:
   type1: CO2_O_C_O
-
 ```
 
 - Naming follows typeN mapping as used by LigParGen/ltemplify output.
@@ -126,14 +120,14 @@ angle:
 ---
 
 📝 Manual Test Example
-See README_run.sh for a step-by-step example of running the pipeline for a single molecule.
+See `README_run.sh` for a step-by-step example of running the pipeline for a single molecule.
 
 🛠 Script Details
 scripts/run_ligpargen_all.sh
 
 Main batch script:
 1. Reads .mol2 files from input_files/
-2. Looks up settings in config/molecules.yaml
+2. Looks up settings in `config/molecules.yaml`
 3. Runs LigParGen (ff_out/ is the output)
 4. Converts LAMMPS data to .lt.tmp using ltemplify.py
 5. Calls lt_postprocess.py to apply type naming and (optionally) charges
@@ -142,15 +136,15 @@ Main batch script:
 scripts/lt_postprocess.py
 - Python script for post-processing .lt.tmp files.
 - If a matching YAML (type_name/<mol>.yaml) exists, atom/bond/angle/… types will be renamed as specified.
-- If config/charges.yaml is present, per-atom charges will be assigned/overwritten.
+- If `config/charges.yaml` is present, per-atom charges will be assigned/overwritten.
 - Otherwise, types are named as <PREFIX>_typeN by default.
 - Produces modular, clean, Moltemplate-compatible .lt files.
 
 🧪 Adding a New Molecule
-1. Place your molecule.mol2 in input_files/
-2. Add an entry to config/molecules.yaml (res, charge)
-3. (Optional) Add type_name/molecule.yaml for chemical-type naming
-4. (Optional) Add per-atom charges to config/charges.yaml
+1. Place your `molecule.mol2` in input_files/
+2. Add an entry to `config/molecules.yaml` (res, charge)
+3. (Optional) Add `type_name/molecule.yaml` for chemical-type naming
+4. (Optional) Add per-atom charges to `config/charges.yaml`
 5. Run the pipeline script
 
 
