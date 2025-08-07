@@ -1,4 +1,4 @@
-# slab_2_lt
+# slab_2_lt Workflow
 
 A simple pipeline for generating FCC metal slab structures as LAMMPS data files, and converting them to Moltemplate `.lt` files with auto-inserted forcefield parameters.
 
@@ -6,23 +6,22 @@ A simple pipeline for generating FCC metal slab structures as LAMMPS data files,
 
 ## Directory Structure
 
-slab_2_lt/
-│
-├─ config/
-│ └─ metals.yaml # Forcefield parameters for metals (mass, sigma, epsilon)
-│
-├─ scripts/
-│ ├─ make_metal_slab.py # Python script: Build a slab and write .data file
-│ └─ make_lt_from_data.sh # Bash script: Convert .data → .lt using metals.yaml
-│
-├─ data/ # Output: LAMMPS data files
-│ └─ Ag_slab.data
-│
-├─ lt/ # Output: Moltemplate .lt files
-│ └─ Ag.lt
-│
-└─ README.md # This file
-
+slab_2_lt/  
+│  
+├─ config/  
+│ └─ metals.yaml # Forcefield parameters for metals (mass, sigma, epsilon)  
+│  
+├─ scripts/  
+│ ├─ make_metal_slab.py # Python script: Build a slab and write .data file  
+│ └─ make_lt_from_data.sh # Bash script: Convert .data → .lt using metals.yaml  
+│  
+├─ data/ # Output: LAMMPS data files  
+│ └─ Ag_slab.data  
+│  
+├─ lt/ # Output: Moltemplate .lt files  
+│ └─ Ag.lt  
+│  
+└─ README.md  
 
 ---
 
