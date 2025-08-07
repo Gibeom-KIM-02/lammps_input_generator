@@ -1,29 +1,45 @@
 # metals.yaml
 # This file defines mass, sigma, and epsilon parameters for each FCC metal element.
 # Units:
+#   structure
+#   miller index
 #   mass    [amu]
 #   sigma   [angstrom]
 #   epsilon [kcal/mol]
 
 Ag:
+  structure: fcc
+  miller: [1, 1, 1]
   mass:    107.868   # Silver atomic mass
   sigma:   2.934     # LJ sigma for Ag
   epsilon: 0.056     # LJ epsilon for Ag
 
 Cu:
+  structure: fcc
+  miller: [1, 0, 0]
   mass:    63.546    # Copper atomic mass
   sigma:   2.338     # LJ sigma for Cu
   epsilon: 0.035     # LJ epsilon for Cu
 
 Au:
+  structure: fcc
+  miller: [1, 1, 1]
   mass:    196.967   # Gold atomic mass
   sigma:   2.951     # LJ sigma for Au
   epsilon: 0.039     # LJ epsilon for Au
 
+Zn:
+  structure: hcp
+  miller: [0, 0, 1]
+  mass: 65.38        # Zinc atomic mass 
+  sigma: 2.450       # LJ sigma for Zn 
+  epsilon: 0.045     # LJ epsilon for Zn 
+
 # Add more metals below as needed.
 # Example:
-# Pd:
-#   mass:    106.42
-#   sigma:   2.750
-#   epsilon: 0.050
-
+# Fe:
+#   structure: bcc
+#   miller: [1, 1, 0]
+#   mass: 55.845
+#   sigma: 2.483
+#   epsilon: 0.052
