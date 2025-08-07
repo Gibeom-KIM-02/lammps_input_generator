@@ -81,6 +81,6 @@ molecules:
 
   TIP3P_2004:
     lt_path: "input_files_lt/tip3p_2004_oplsaa2024.lt"
-    class_name: "TIP3P_2004"
+    class_name: "TIP3P"
     count_rule: "elem['O'] - 2*mol['CO2'] - 4*mol['Sulfate']"
 
