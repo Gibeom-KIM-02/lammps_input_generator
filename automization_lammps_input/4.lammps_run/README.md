@@ -1,10 +1,10 @@
 # How to Run LAMMPS Simulations
 
 1. Make sure you have already run moltemplate.sh and created the files in `build/`:
-- system.data  
-- system.in.init  
-- system.in.settings  
-- system.in.charges  
+    - system.data  
+    - system.in.init  
+    - system.in.settings  
+    - system.in.charges  
 
 2. To run simulations (minimization → NPT → NVT), run these commands:
 
