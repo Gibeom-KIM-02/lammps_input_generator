@@ -8,11 +8,11 @@ A simple pipeline for generating metal slab structures (FCC, BCC, HCP, etc.) as 
 
 slab_2_lt/  
 ├─ config/  
-│ └─ metals.yaml # Forcefield parameters for metals (mass, sigma, epsilon), and structure with miller index
+│ └─ metals.yaml # Forcefield parameters for metals (mass, sigma, epsilon), and structure with miller index  
 │  
 ├─ scripts/  
-│ ├─ make_metal_slab.py # Python script: Build any slab (crystal type + Miller) and write .data file
-│ └─ make_lt_from_data.sh # Bash script: Convert .data → .lt using metals.yaml  
+│ ├─ make_metal_slab.py # Python script: Build any slab (crystal type + Miller) and write .data file  
+│ └─ make_lt_from_data.sh # Bash script: Convert .data → .lt using metals.yaml   
 │  
 ├─ data/ # Output: LAMMPS data files  
 │ └─ Ag_slab.data  
@@ -20,7 +20,7 @@ slab_2_lt/
 ├─ lt/ # Output: Moltemplate .lt files  
 │ └─ Ag.lt  
 │  
-├─ README_run_example.sh # Example end-to-end workflow script 
+├─ README_run_example.sh # Example end-to-end workflow script   
 │  
 └─ README.md 
 
