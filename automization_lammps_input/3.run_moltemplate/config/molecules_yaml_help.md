@@ -66,7 +66,7 @@ molecules:
     lt_path: "input_files_lt_adsorbent/Ag.lt"
     class_name: "Ag"
     adsorbent: true
-    fixed_group: "1:16"
+    fixed_group: "1:32"
 
   CO2:
     lt_path: "input_files_lt/CO2.lt"
@@ -75,7 +75,7 @@ molecules:
 
   Sulfate:
     lt_path: "input_files_lt/sulfate.lt"
-    class_name: "Sulfate"
+    class_name: "sulfate"
     count_rule: "elem['S']"
     charge: -2
 
