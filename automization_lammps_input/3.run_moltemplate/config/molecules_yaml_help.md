@@ -12,7 +12,7 @@ Each molecule (or slab) can be specified flexibly.
   - `output_lt`     : Name of the output system.lt file.
 
 - **molecules**
-  - Each key is a molecule "nickname" (arbitrary, e.g., `CO2`, `Sulfate`, `AgSlab`).
+  - Each key is a molecule "nickname" (arbitrary, e.g., `CO2`, `sulfate`, `AgSlab`).
   - Values are molecule-specific configuration dictionaries.
 
 ---
