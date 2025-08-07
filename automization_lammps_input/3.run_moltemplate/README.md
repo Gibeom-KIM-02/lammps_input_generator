@@ -7,7 +7,7 @@ Finally, by running moltemplate, this directory generates input files for lammps
 
 ---
 
-## 📦 Directory Structure Example
+## 📁 Directory Structure Example
 
 run_moltemplate/  
 ├── config/  
