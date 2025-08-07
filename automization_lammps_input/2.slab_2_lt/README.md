@@ -1,4 +1,4 @@
-# slab_2_lt Workflow
+# 2.slab_2_lt Workflow
 
 A simple pipeline for generating FCC metal slab structures as LAMMPS data files, and converting them to Moltemplate `.lt` files with auto-inserted forcefield parameters.
 
