@@ -37,6 +37,9 @@ mol_cfg    = mol_cfg_full.get("molecules", {})
 if not global_cfg or not mol_cfg:
     sys.exit("[ERROR] 'global' or 'molecules' block missing in molecules.yaml.")
 
+# Add this line right after global_cfg is set:
+extra_imports = global_cfg.get("extra_imports", [])
+
 xyz_path = Path(global_cfg["xyz_file"])
 lt_out   = Path(global_cfg["output_lt"])
 if not xyz_path.exists():
@@ -130,7 +133,13 @@ import_block = [
     "# !! NOTE !!  Paths are relative to the directory where you run moltemplate.sh.",
     "# ------------------------------------------------------------",
 ]
-import_block += [import_line(Path(spec["lt_path"]).as_posix()) for spec in mol_cfg.values()]
+# Add extra_imports (from global block in molecules.yaml)
+for path in extra_imports:
+    import_block.append(f'import "{path}"   # <-- Adjust path if needed!')
+
+# Then add all molecules' lt files (order preserved from YAML)
+import_block += [import_line(Path(spec["lt_path"]).as_posix())
+                 for spec in mol_cfg.values()]
 import_block.append("")
 
 # -------------------------------------------------------------------
@@ -252,4 +261,3 @@ lt_text = (
 
 lt_out.write_text(lt_text)
 print(f"[DONE] Wrote {lt_out}")
-
