@@ -6,13 +6,13 @@ By using moltemplate and ligpargen, it generates lammps input files.
 ## 📁 Directory Structure
 
 automization_lammps_input/  
-├── 1.mol2_2_lt / # Generate lt files for structure
+├── 1.mol2_2_lt / # Generate lt files for structure          
 │
-├── 2.slab_2_lt / # Generate lt files for metal slab
+├── 2.slab_2_lt / # Generate lt files for metal slab          
 │    
-├── 3.run_moltemplate / # Coordinate system.lt and run moltemplate.sh
+├── 3.run_moltemplate / # Coordinate system.lt and run moltemplate.sh          
 │  
-├── 4.lammps_run / # lammps run
+├── 4.lammps_run / # lammps run            
 │   
 └── README.md
 
