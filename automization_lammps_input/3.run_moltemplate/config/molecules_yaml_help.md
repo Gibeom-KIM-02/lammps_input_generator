@@ -24,7 +24,7 @@ Each molecule (or slab) can be specified flexibly.
 | lt_path       | Yes      | str       | Relative path to the molecule's LT file.                                                      |
 | class_name    | Yes      | str       | The class name defined in the LT file (used in instantiation).                                |
 | adsorbent     | No       | bool      | Set `true` if the molecule is a slab/adsorbent (special count rules will be applied).         |
-| fixed_group   | No       | str       | Atom id range for LAMMPS group fix (e.g., "1:16"). Used for fixing bottom slab layers.        |
+| fixed_group   | No       | str       | Atom id range for LAMMPS group fix (e.g., "1:32"). Used for fixing bottom slab layers.        |
 | count_rule    | No\*     | str       | Python expression for counting number of molecules. Required for all **non-adsorbents**.      |
 | charge        | No       | int/float | For notes or charge-neutrality calculation (not used directly in system.lt generation).       |
 | force_count   | No       | int       | Explicitly force number of this molecule (overrides all other rules, rarely needed).          |
