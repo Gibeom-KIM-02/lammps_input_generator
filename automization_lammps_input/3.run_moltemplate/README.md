@@ -19,13 +19,13 @@ run_moltemplate/
 │ ├── CO2.lt  
 │ ├── sulfate.lt  
 │ ├── tip3p_2004_oplsaa2024.lt  
-│ └── ff.lt # (optional)
+│ └── ff.lt # (optional: you can import external forcefields)  
 │  
-├── input_files_lt_adsorbent/ 
+├── input_files_lt_adsorbent/  
 │ └── Ag.lt  
 │  
 ├── input_files_structure/  
-│ └── Ag_sulfate_CO2_solvated.xyz  
+│ └── Ag_sulfate_CO2_solvated.xyz  # lammps input geometric structure   
 │  
 ├── make_system_lt.py # Python automation script to make system.lt  
 │  
