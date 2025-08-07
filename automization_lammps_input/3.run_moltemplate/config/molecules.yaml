@@ -5,6 +5,9 @@ global:
   xyz_file: "input_files_structure/Ag_sulfate_CO2_solvated.xyz"   # Input XYZ coordinates file
   output_lt: "system.lt"                                         # Output LT file name
 
+#  extra_imports:
+#    - "input_files_lt/ff.lt"    # If you want to import external forcefields, use "extra_imports (ff.lt)" (e.g. buckingham potential parameter)
+
 molecules:
   AgSlab:
     instance_name: Agblock
