@@ -54,9 +54,9 @@ for mol2 in "${INPUT_DIR}"/*.mol2; do
 
     # --- Step 3: Post-process LT file (prefix types, section reorg) ---
     python "${POST_PY}" "${WORKDIR}/${mol}.lt.tmp" "${LT_DIR}/${mol}.lt"
-    rm "${WORKDIR}/${mol}.lt.tmp"
+#    rm "${WORKDIR}/${mol}.lt.tmp"
 
-    echo "  ✅ ${LT_DIR}/${mol}.lt generated and cleaned"
+    echo "  ✅ ${LT_DIR}/${mol}.lt generated"
 done
 
 echo "🎉 All input_files/*.mol2 have been processed!"
