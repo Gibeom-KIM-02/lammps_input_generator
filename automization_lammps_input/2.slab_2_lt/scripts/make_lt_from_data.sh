@@ -93,7 +93,7 @@ with open(outfile, "w") as out:
 EOF
 
 # ========== 5. Cleanup ==========
-rm "$OUTDIR/${LTNAME}.lt.tmp"
+# rm "$OUTDIR/${LTNAME}.lt.tmp"
 
 echo "[OK] LT file created at $OUTLT"
 
