@@ -46,8 +46,8 @@ for mol2 in "${INPUT_DIR}"/*.mol2; do
                -p "${WORKDIR}" \
                -r "${RES}" \
                -c "${CHARGE}" \
-               -o 0 \
-               -cgen CM1A-LBCC
+               -o 0 # number of optimization # \
+#               -cgen CM1A-LBCC ( Default value: -cgen,-cgenb: CM1A-LBCC for neutral molecules and CM1A for charged molecules. )
 
     # --- Step 2: Convert LAMMPS data to Moltemplate LT format ---
     ltemplify.py  "${WORKDIR}/${mol}.lammps.lmp" > "${WORKDIR}/${mol}.lt.tmp"
