@@ -8,27 +8,27 @@ Finally, by running moltemplate, this directory generates input files for lammps
 ---
 
 ## 📦 Directory Structure Example
-
-run_moltemplate/
-├── make_system_lt.py # Python automation script to make system.lt
-├── config/
-│ ├── molecules.yaml # Main molecule & system config (YAML)
-│ └── settings.yaml # All global force field & LAMMPS settings
-├── molecules_yaml_help.md # Detailed YAML help (optional)
-├── README.md # This file
-├── README_run.sh # Example run script (contains moltemplate run)
-│
-├── input_files_structure/
-│ └── Ag_sulfate_CO2_solvated.xyz
-│
-├── input_files_lt/
-│ ├── CO2.lt
-│ ├── sulfate.lt
-│ └── tip3p_2004_oplsaa2024.lt
-│
-└── input_files_lt_adsorbent/
-└── Ag.lt
-
+```
+run_moltemplate/   
+├── make_system_lt.py # Python automation script to make system.lt   
+├── config/   
+│ ├── molecules.yaml # Main molecule & system config (YAML)   
+│ └── settings.yaml # All global force field & LAMMPS settings   
+├── molecules_yaml_help.md # Detailed YAML help (optional)   
+├── README.md # This file   
+├── README_run.sh # Example run script (contains moltemplate run)   
+│   
+├── input_files_structure/   
+│ └── Ag_sulfate_CO2_solvated.xyz   
+│   
+├── input_files_lt/   
+│ ├── CO2.lt   
+│ ├── sulfate.lt   
+│ └── tip3p_2004_oplsaa2024.lt   
+│   
+└── input_files_lt_adsorbent/   
+└── Ag.lt   
+```
 
 ---
 
