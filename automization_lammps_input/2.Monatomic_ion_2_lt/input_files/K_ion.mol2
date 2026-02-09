@@ -1,0 +1,17 @@
+# 813
+# Created by GaussView 5.0.9
+#
+
+#
+#
+
+@<TRIPOS>MOLECULE
+Molecule Name
+1 0
+SMALL
+NO_CHARGES
+
+
+@<TRIPOS>ATOM
+1 K1     2.0000     0.0000     0.0000 K
+@<TRIPOS>BOND
