@@ -5,7 +5,6 @@ variable datapath string build      # <-- Set build directory here
 
 include         "build/system.in.init"
 read_data       "build/system.data"
-include         "build/system.in.charges"
 include         "build/system.in.settings"
 
 # Minimization
