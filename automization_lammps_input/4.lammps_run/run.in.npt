@@ -13,7 +13,7 @@ velocity all create 300.0 4928459 mom yes rot yes dist gaussian
 
 # Optional: Short Langevin run to shake up the box
 fix fxlan all langevin  300.0 300.0  120.0  10981
-fix fxnph all nph  iso 100.0 100.0 1000.0
+fix fxnph all nph  iso 1.0 1.0 1000.0
 run 2000
 unfix fxlan
 unfix fxnph
