@@ -1,2 +1,0 @@
-Ag slab -> metal
-does not require charge typing, opposite to CO2, sulfate, etc. cases.
