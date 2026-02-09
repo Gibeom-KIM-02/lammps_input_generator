@@ -1,0 +1,99 @@
+
+    pair_coeff @/atom:OTF-ion/OTF-ION_type1 @/atom:OTF-ion/OTF-ION_type1 0.250 3.5500000
+    pair_coeff @/atom:OTF-ion/OTF-ION_type2 @/atom:OTF-ion/OTF-ION_type2 0.060 2.9000000
+    pair_coeff @/atom:OTF-ion/OTF-ION_type3 @/atom:OTF-ion/OTF-ION_type3 0.060 2.9000000
+    pair_coeff @/atom:OTF-ion/OTF-ION_type4 @/atom:OTF-ion/OTF-ION_type4 0.060 2.9000000
+    pair_coeff @/atom:OTF-ion/OTF-ION_type5 @/atom:OTF-ion/OTF-ION_type5 0.170 2.9600000
+    pair_coeff @/atom:OTF-ion/OTF-ION_type6 @/atom:OTF-ion/OTF-ION_type6 0.170 2.9600000
+    pair_coeff @/atom:OTF-ion/OTF-ION_type7 @/atom:OTF-ion/OTF-ION_type7 0.170 2.9600000
+    pair_coeff @/atom:OTF-ion/OTF-ION_type8 @/atom:OTF-ion/OTF-ION_type8 0.066 3.5000000
+
+    bond_coeff @/bond:OTF-ion/OTF-ION_type1 340.0000 1.7700
+    bond_coeff @/bond:OTF-ion/OTF-ION_type2 367.0000 1.3320
+    bond_coeff @/bond:OTF-ion/OTF-ION_type3 367.0000 1.3320
+    bond_coeff @/bond:OTF-ion/OTF-ION_type4 367.0000 1.3320
+    bond_coeff @/bond:OTF-ion/OTF-ION_type5 700.0000 1.4400
+    bond_coeff @/bond:OTF-ion/OTF-ION_type6 700.0000 1.4400
+    bond_coeff @/bond:OTF-ion/OTF-ION_type7 700.0000 1.4400
+
+    angle_coeff @/angle:OTF-ion/OTF-ION_type1 50.000 109.500
+    angle_coeff @/angle:OTF-ion/OTF-ION_type2 50.000 109.500
+    angle_coeff @/angle:OTF-ion/OTF-ION_type3 50.000 109.500
+    angle_coeff @/angle:OTF-ion/OTF-ION_type4 74.000 108.900
+    angle_coeff @/angle:OTF-ion/OTF-ION_type5 74.000 108.900
+    angle_coeff @/angle:OTF-ion/OTF-ION_type6 74.000 108.900
+    angle_coeff @/angle:OTF-ion/OTF-ION_type7 77.000 109.100
+    angle_coeff @/angle:OTF-ion/OTF-ION_type8 77.000 109.100
+    angle_coeff @/angle:OTF-ion/OTF-ION_type9 77.000 109.100
+    angle_coeff @/angle:OTF-ion/OTF-ION_type10 104.000 123.000
+    angle_coeff @/angle:OTF-ion/OTF-ION_type11 104.000 123.000
+    angle_coeff @/angle:OTF-ion/OTF-ION_type12 104.000 123.000
+
+    dihedral_coeff @/dihedral:OTF-ion/OTF-ION_type1 0.000 0.000 0.000 0.000
+    dihedral_coeff @/dihedral:OTF-ion/OTF-ION_type2 0.000 0.000 0.000 0.000
+    dihedral_coeff @/dihedral:OTF-ion/OTF-ION_type3 0.000 0.000 0.000 0.000
+    dihedral_coeff @/dihedral:OTF-ion/OTF-ION_type4 0.000 0.000 0.000 0.000
+    dihedral_coeff @/dihedral:OTF-ion/OTF-ION_type5 0.000 0.000 0.000 0.000
+    dihedral_coeff @/dihedral:OTF-ion/OTF-ION_type6 0.000 0.000 0.000 0.000
+    dihedral_coeff @/dihedral:OTF-ion/OTF-ION_type7 0.000 0.000 0.000 0.000
+    dihedral_coeff @/dihedral:OTF-ion/OTF-ION_type8 0.000 0.000 0.000 0.000
+    dihedral_coeff @/dihedral:OTF-ion/OTF-ION_type9 0.000 0.000 0.000 0.000
+    # OPLSAA Zn2+ (sigma=1.960 A, epsilon=0.0125 kcal/mol)
+    # LAMMPS pair_coeff: epsilon sigma
+    pair_coeff @/atom:Zn_ion/Zn @/atom:Zn_ion/Zn 0.0125 1.960
+    # OPLSAA K+  (sigma=5.17 A, epsilon=0.0005 kcal/mol)
+    # LAMMPS pair_coeff: epsilon sigma
+    pair_coeff @/atom:K_ion/K @/atom:K_ion/K 0.0005 5.17
+pair_coeff @/atom:TIP3P/9999 @/atom:TIP3P/9999 0.1521 3.15061
+pair_coeff @/atom:TIP3P/9998 @/atom:TIP3P/9998 0.0    0.0
+
+bond_coeff  @/bond:TIP3P/tipO_tipH       450.0 0.9572
+angle_coeff @/angle:TIP3P/tipH_tipO_tipH 55.0  104.52
+
+group tip3p type @/atom:TIP3P/9999 @/atom:TIP3P/9998
+fix fShakeTIP3P tip3p shake 0.0001 10 100 b @/bond:TIP3P/tipO_tipH a @/angle:TIP3P/tipH_tipO_tipH
+    pair_coeff @/atom:TFE/TFE_type1 @/atom:TFE/TFE_type1 0.060 2.9000000
+    pair_coeff @/atom:TFE/TFE_type2 @/atom:TFE/TFE_type2 0.060 2.9000000
+    pair_coeff @/atom:TFE/TFE_type3 @/atom:TFE/TFE_type3 0.060 2.9000000
+    pair_coeff @/atom:TFE/TFE_type4 @/atom:TFE/TFE_type4 0.170 3.1200000
+    pair_coeff @/atom:TFE/TFE_type5 @/atom:TFE/TFE_type5 0.066 3.5000000
+    pair_coeff @/atom:TFE/TFE_type6 @/atom:TFE/TFE_type6 0.066 3.5000000
+    pair_coeff @/atom:TFE/TFE_type7 @/atom:TFE/TFE_type7 0.030 2.5000000
+    pair_coeff @/atom:TFE/TFE_type8 @/atom:TFE/TFE_type8 0.030 2.5000000
+    pair_coeff @/atom:TFE/TFE_type9 @/atom:TFE/TFE_type9 0.000 0.0000000
+
+    bond_coeff @/bond:TFE/TFE_type1 367.0000 1.3320
+    bond_coeff @/bond:TFE/TFE_type2 367.0000 1.3320
+    bond_coeff @/bond:TFE/TFE_type3 367.0000 1.3320
+    bond_coeff @/bond:TFE/TFE_type4 268.0000 1.5290
+    bond_coeff @/bond:TFE/TFE_type5 320.0000 1.4100
+    bond_coeff @/bond:TFE/TFE_type6 340.0000 1.0900
+    bond_coeff @/bond:TFE/TFE_type7 340.0000 1.0900
+    bond_coeff @/bond:TFE/TFE_type8 553.0000 0.9450
+
+    angle_coeff @/angle:TFE/TFE_type1 77.000 109.100
+    angle_coeff @/angle:TFE/TFE_type2 77.000 109.100
+    angle_coeff @/angle:TFE/TFE_type3 50.000 109.500
+    angle_coeff @/angle:TFE/TFE_type4 50.000 109.500
+    angle_coeff @/angle:TFE/TFE_type5 37.500 110.700
+    angle_coeff @/angle:TFE/TFE_type6 37.500 110.700
+    angle_coeff @/angle:TFE/TFE_type7 55.000 108.500
+    angle_coeff @/angle:TFE/TFE_type8 77.000 109.100
+    angle_coeff @/angle:TFE/TFE_type9 50.000 109.500
+    angle_coeff @/angle:TFE/TFE_type10 50.000 109.500
+    angle_coeff @/angle:TFE/TFE_type11 35.000 109.500
+    angle_coeff @/angle:TFE/TFE_type12 35.000 109.500
+    angle_coeff @/angle:TFE/TFE_type13 33.000 107.800
+
+    dihedral_coeff @/dihedral:TFE/TFE_type1  0.000 0.000 0.540 0.000
+    dihedral_coeff @/dihedral:TFE/TFE_type2  0.000 0.000 0.360 0.000
+    dihedral_coeff @/dihedral:TFE/TFE_type3  0.000 0.000 0.360 0.000
+    dihedral_coeff @/dihedral:TFE/TFE_type4 -0.500 0.200 0.300 0.000
+    dihedral_coeff @/dihedral:TFE/TFE_type5  0.000 0.000 0.540 0.000
+    dihedral_coeff @/dihedral:TFE/TFE_type6  0.000 0.000 0.360 0.000
+    dihedral_coeff @/dihedral:TFE/TFE_type7  0.000 0.000 0.360 0.000
+    dihedral_coeff @/dihedral:TFE/TFE_type8  0.000 0.000 0.540 0.000
+    dihedral_coeff @/dihedral:TFE/TFE_type9  0.000 0.000 0.360 0.000
+    dihedral_coeff @/dihedral:TFE/TFE_type10 0.000 0.000 0.360 0.000
+    dihedral_coeff @/dihedral:TFE/TFE_type11 0.000 0.000 0.352 0.000
+    dihedral_coeff @/dihedral:TFE/TFE_type12 0.000 0.000 0.352 0.000
