@@ -1,0 +1,17 @@
+name: ligpargen_run
+channels:
+  - conda-forge
+  - rdkit
+dependencies:
+  - python=3.7
+  - pip
+  - git
+  - numpy
+  - pandas
+  - rdkit
+  - openbabel
+  - pyyaml
+  - moltemplate
+  - go-yq
+  - setuptools
+  - wheel
