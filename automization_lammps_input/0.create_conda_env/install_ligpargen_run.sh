@@ -131,29 +131,148 @@ echo "[TEST] ligpargen help"
 ligpargen -h >/dev/null 2>&1 && echo "OK: ligpargen -h works"
 
 # -----------------------------
-# 7) BOSSdir check
+# 7) BOSSdir / runtime preflight check
 # -----------------------------
+echo "[TEST] BOSS preflight"
+
 if [[ -z "${BOSSdir:-}" ]]; then
   echo "[WARN] BOSSdir is not set."
-  echo "       LigParGen may fail during actual OPLS-AA parameter generation."
+  echo "       LigParGen installation is complete, but real parameter generation"
+  echo "       will fail unless BOSSdir is configured."
   echo "       Example:"
   echo "         export BOSSdir=/path/to/boss"
-  echo "       Put it in ~/.bashrc if you want it persistent."
+  echo '         export PATH="$BOSSdir/scripts:$PATH"'
+  echo "       Put them in ~/.bashrc if you want them persistent."
 else
-  if [[ -d "${BOSSdir}" ]]; then
-    echo "[OK] BOSSdir is set: ${BOSSdir}"
-  else
-    echo "[WARN] BOSSdir is set but not a valid directory: ${BOSSdir}"
-    echo "       Please check your ~/.bashrc entry."
+  if [[ ! -d "${BOSSdir}" ]]; then
+    echo "[ERR] BOSSdir is set but not a valid directory: ${BOSSdir}" >&2
+    echo "      Please check your ~/.bashrc entry." >&2
+    exit 5
   fi
+
+  echo "[OK] BOSSdir is set: ${BOSSdir}"
+
+  BOSS_BIN="${BOSSdir}/BOSS"
+  BOSS_SCRIPTS_DIR="${BOSSdir}/scripts"
+
+  if [[ ! -e "${BOSS_BIN}" ]]; then
+    echo "[ERR] BOSS executable not found: ${BOSS_BIN}" >&2
+    exit 6
+  fi
+
+  if [[ ! -x "${BOSS_BIN}" ]]; then
+    echo "[ERR] BOSS exists but is not executable: ${BOSS_BIN}" >&2
+    echo "      Fix example:" >&2
+    echo "        chmod 755 \"${BOSS_BIN}\"" >&2
+    exit 7
+  fi
+
+  if ! command -v csh >/dev/null 2>&1; then
+    echo "[ERR] csh is not available in PATH." >&2
+    echo "      LigParGen/BOSS helper scripts require csh." >&2
+    exit 8
+  fi
+
+  if [[ ! -d "${BOSS_SCRIPTS_DIR}" ]]; then
+    echo "[ERR] Missing BOSS scripts directory: ${BOSS_SCRIPTS_DIR}" >&2
+    exit 9
+  fi
+
+  missing_root_files=()
+  for f in oplsaa.par oplsaa.sb; do
+    [[ -e "${BOSSdir}/${f}" ]] || missing_root_files+=("${BOSSdir}/${f}")
+  done
+
+  missing_script_files=()
+  for f in xOPT xZCM1A xPDBZ xMOLZ OPTcmd OPLSpar; do
+    [[ -e "${BOSS_SCRIPTS_DIR}/${f}" ]] || missing_script_files+=("${BOSS_SCRIPTS_DIR}/${f}")
+  done
+
+  if (( ${#missing_root_files[@]} > 0 )); then
+    echo "[ERR] Missing required BOSS files:" >&2
+    printf '      %s\n' "${missing_root_files[@]}" >&2
+    exit 10
+  fi
+
+  if (( ${#missing_script_files[@]} > 0 )); then
+    echo "[ERR] Missing required BOSS helper files:" >&2
+    printf '      %s\n' "${missing_script_files[@]}" >&2
+    exit 11
+  fi
+
+  nonexec_helpers=()
+  for f in xOPT xZCM1A xPDBZ xMOLZ OPTcmd; do
+    [[ -x "${BOSS_SCRIPTS_DIR}/${f}" ]] || nonexec_helpers+=("${BOSS_SCRIPTS_DIR}/${f}")
+  done
+
+  if (( ${#nonexec_helpers[@]} > 0 )); then
+    echo "[ERR] Some BOSS helper scripts are not executable:" >&2
+    printf '      %s\n' "${nonexec_helpers[@]}" >&2
+    echo "      Fix example:" >&2
+    echo "        chmod 755 \"${BOSS_SCRIPTS_DIR}\"/xOPT \"${BOSS_SCRIPTS_DIR}\"/xZCM1A \\" >&2
+    echo "                  \"${BOSS_SCRIPTS_DIR}\"/xPDBZ \"${BOSS_SCRIPTS_DIR}\"/xMOLZ \\" >&2
+    echo "                  \"${BOSS_SCRIPTS_DIR}\"/OPTcmd" >&2
+    exit 12
+  fi
+
+  if command -v readelf >/dev/null 2>&1; then
+    BOSS_INTERP="$(readelf -l "${BOSS_BIN}" 2>/dev/null | sed -n 's/.*Requesting program interpreter: \(.*\)\].*/\1/p' | head -n 1)"
+    if [[ -n "${BOSS_INTERP}" ]]; then
+      echo "[INFO] BOSS ELF interpreter: ${BOSS_INTERP}"
+      if [[ ! -e "${BOSS_INTERP}" ]]; then
+        echo "[ERR] Required ELF interpreter is missing: ${BOSS_INTERP}" >&2
+        if [[ "${BOSS_INTERP}" == "/lib/ld-linux.so.2" ]]; then
+          echo "      This usually means the system lacks 32-bit compatibility runtime." >&2
+          echo "      Your BOSS binary is a 32-bit executable and cannot run on this node as-is." >&2
+          echo "      Typical admin-side packages on CentOS 7 may include:" >&2
+          echo "        glibc.i686  libgcc.i686  libstdc++.i686" >&2
+        fi
+        exit 13
+      fi
+    fi
+  else
+    echo "[WARN] readelf not found; skipping ELF interpreter check."
+  fi
+
+  # Make helper scripts reachable in the current shell
+  export PATH="${BOSS_SCRIPTS_DIR}:${PATH}"
+
+  # Runtime smoke test: nonzero exit code can be normal without input,
+  # but loader / exec-format failures must be caught explicitly.
+  BOSS_SMOKE_ERR="$(mktemp "${TMPDIR:-/tmp}/boss_smoke_XXXXXX.err")"
+  set +e
+  "${BOSS_BIN}" >/dev/null 2>"${BOSS_SMOKE_ERR}"
+  BOSS_RC=$?
+  set -e
+
+  if grep -qi 'bad ELF interpreter' "${BOSS_SMOKE_ERR}"; then
+    echo "[ERR] BOSS failed to start due to missing ELF interpreter:" >&2
+    sed 's/^/      /' "${BOSS_SMOKE_ERR}" >&2
+    rm -f "${BOSS_SMOKE_ERR}"
+    exit 14
+  fi
+
+  if grep -qiE 'No such file or directory|cannot execute|Exec format error|Permission denied' "${BOSS_SMOKE_ERR}"; then
+    echo "[ERR] BOSS failed the runtime smoke test." >&2
+    sed 's/^/      /' "${BOSS_SMOKE_ERR}" >&2
+    rm -f "${BOSS_SMOKE_ERR}"
+    exit 15
+  fi
+
+  rm -f "${BOSS_SMOKE_ERR}"
+
+  echo "[OK] BOSS preflight passed."
+  echo "[INFO] BOSS binary could be invoked."
+  echo "[INFO] Added \$BOSSdir/scripts to PATH for this install session."
 fi
 
 # -----------------------------
 # 8) final summary
 # -----------------------------
 echo
-echo "[DONE] LigParGen installation completed successfully."
 echo "[DONE] To use it later:"
 echo "       conda activate ${ENV_NAME}"
+echo "       export BOSSdir=/path/to/boss"
+echo '       export PATH="$BOSSdir/scripts:$PATH"'
 echo "       which ligpargen"
 echo "       ligpargen -h"
