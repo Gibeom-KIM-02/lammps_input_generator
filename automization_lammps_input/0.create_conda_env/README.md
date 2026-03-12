@@ -1,4 +1,4 @@
-# 0.create_conda_env — ligpargen_run Conda Environment
+# 0.create_conda_env — **ligpargen_run** Conda Environment
 
 Create/update a Conda environment for the LigParGen-based workflows in this repository.
 
