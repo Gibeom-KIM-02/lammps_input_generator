@@ -66,7 +66,7 @@ python make_system_lt.py
 ```
 
 ### 5) Run Moltemplate
-Make sure file path for `.xyz` file is compatiable with yours.
+Make sure file path for `.xyz` is compatiable with yours.
 ```bash
 moltemplate.sh -xyz input_files_structure/waterTIP3P+methane.xyz -atomstyle "full" system.lt
 ```
