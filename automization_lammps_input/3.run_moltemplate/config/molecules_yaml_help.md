@@ -77,31 +77,25 @@ The result must be an integer.
 
 ```yaml
 global:
-  xyz_file: "input_files_structure/1_6M_OTFTFE_1_1.xyz"
-  output_lt: "system.lt"
+  xyz_file: "input_files_structure/waterTIP3P+methane.xyz"   # Input XYZ coordinates file
+  output_lt: "system.lt"                                     # Output LT file name
   extra_imports:
-    - "input_files_lt/ff_custom.lt"
+    - "input_files_lt/ff_custom.lt"    # If you want to import external forcefields, use "extra_imports (ff.lt)" (e.g. buckingham potential parameter)
 
+# Typing order of molecules should be same with xyz structure file's molecular order.
 molecules:
-  OTF:
-    instance_name: OTF
-    lt_path: "input_files_lt/OTF-ion.lt"
-    class_name: "OTF-ion"
-    count_rule: "elem['S']"
-    charge: -1
-
-  Zn_ion:
-    instance_name: Zn_ion
-    lt_path: "input_files_lt/Zn_ion.lt"
-    class_name: "Zn_ion"
-    count_rule: "elem['Zn']"
-    charge: +2
-
-  TIP3P_2004:
-    instance_name: Waters
+  TIP3P_water:
+    instance_name: water
     lt_path: "input_files_lt/tip3p_2004_oplsaa2024.lt"
     class_name: "TIP3P"
-    count_rule: "347"
+    count_rule: "elem['O']"
+    #count_rule: "512" # Also you can explicitly assgin number of waters.
+
+  Methane:
+    instance_name: Methane
+    lt_path: "input_files_lt/Methane.lt"
+    class_name: "Methane"
+    count_rule: "27"
 ```
 
 ---
