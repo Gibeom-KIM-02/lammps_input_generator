@@ -4,7 +4,7 @@
     - system.data  
     - system.in.init  
     - system.in.settings  
-    - system.in.charges  
+    - (optional: system.in.charges)  
 
 2. To run simulations (minimization → NPT → NVT), run these commands:
 
