@@ -27,13 +27,11 @@ then run **Moltemplate** to produce LAMMPS-ready inputs (`system.data`, `system.
 │
 ├── input_files_lt/                 # ALL .lt fragments (molecules/ions/solvent/ff_custom)
 │   ├── tip3p_2004_oplsaa2024.lt
-│   ├── OTF-ion.lt
-│   ├── Zn_ion.lt
-│   ├── K_ion.lt
+│   ├── Methane.lt
 │   └── ff_custom.lt                # optional: global styles in LT form (example)
 │
 ├── input_files_structure/
-│   └── 1_6M_OTFTFE_1_1.xyz          # XYZ coordinates (PACKMOL/ASE output)
+│   └── waterTIP3P+methane.xyz      # XYZ coordinates (PACKMOL/ASE output)
 │
 ├── make_system_lt.py               # generates system.lt from YAML + XYZ
 ├── README_run.sh                   # example end-to-end command sequence
@@ -68,12 +66,13 @@ python make_system_lt.py
 ```
 
 ### 5) Run Moltemplate
+Make sure file path for `.xyz` file is compatiable with yours.
 ```bash
-moltemplate.sh -xyz input_files_structure/1_6M_OTFTFE_1_1.xyz -atomstyle "full" system.lt
+moltemplate.sh -xyz input_files_structure/waterTIP3P+methane.xyz -atomstyle "full" system.lt
 ```
 
-### 6) (Optional) Copy outputs to your LAMMPS run directory
-`README_run.sh` contains an example copy step.
+### 6) Copy outputs to your LAMMPS run directory
+Following files are required to run `LAMMPS` MD simulation: `system.data`, `system.in.init`, `system.in.settings`, etc. 
 
 ---
 
@@ -91,25 +90,23 @@ Example (simplified):
 
 ```yaml
 global:
-  xyz_file: "input_files_structure/1_6M_OTFTFE_1_1.xyz"
+  xyz_file: "input_files_structure/waterTIP3P+methane.xyz" 
   output_lt: "system.lt"
   extra_imports:
     - "input_files_lt/ff_custom.lt"
 
 molecules:
-  OTF:
-    instance_name: OTF
-    lt_path: "input_files_lt/OTF-ion.lt"
-    class_name: "OTF-ion"
-    count_rule: "elem['S']"
-    charge: -1
+  TIP3P_water:
+    instance_name: water
+    lt_path: "input_files_lt/tip3p_2004_oplsaa2024.lt"  
+    class_name: "TIP3P"                           
+    count_rule: "elem['O']"
 
-  Zn_ion:
-    instance_name: Zn_ion
-    lt_path: "input_files_lt/Zn_ion.lt"
-    class_name: "Zn_ion"
-    count_rule: "elem['Zn']"
-    charge: +2
+  Methane:
+    instance_name: Methane
+    lt_path: "input_files_lt/Methane.lt"         
+    class_name: "Methane"                        
+    count_rule: "elem['C']"
 ```
 
 > **Important:** `charge` is currently a **note field** (not automatically enforced).  
@@ -117,44 +114,9 @@ molecules:
 
 ---
 
-### `config/settings.yaml` (optional)
+## Global Force Field Settings via `ff_custom.lt`
 
-`make_system_lt.py` reads `settings.yaml` and writes them into an early:
-
-```lt
-write_once("In Settings") { ... }
-```
-
-This is useful for defining global styles such as `pair_style`, `kspace_style`, etc.
-
-You can write commands either as:
-- a **dict** with `style` and `args` (recommended), or
-- a **string** (simple commands)
-
-Example:
-
-```yaml
-pair_style:
-  style: lj/cut/coul/long
-  args: [11.0, 11.0]
-
-pair_modify: "mix geometric"
-
-kspace_style:
-  style: pppm
-  args: [1.0e-4]
-
-bond_style: "harmonic"
-angle_style: "harmonic"
-dihedral_style: "opls"
-improper_style: "cvff"
-```
-
----
-
-## Global Force Field Settings via `ff_custom.lt` (optional)
-
-Instead of (or in addition to) `settings.yaml`, you can import a custom LT fragment that defines global styles:
+You can import a custom LT fragment that defines global styles:
 
 - Place `ff_custom.lt` in `input_files_lt/`
 - Add it to `global.extra_imports` in `molecules.yaml`
@@ -175,9 +137,6 @@ write_once("In Init") {
   kspace_style    pppm 1.0e-4
 }
 ```
-
-> **Tip:** Keep *one* source of truth for global styles to avoid duplicate/conflicting commands
-> (either `settings.yaml` or `ff_custom.lt`, depending on your preference).
 
 ---
 
