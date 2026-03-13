@@ -5,7 +5,7 @@ variable datapath string build
 
 include         "build/system.in.init"
 read_data       "system_after_npt.data"
-include         "build/system.in.charges"
+# include         "build/system.in.charges"
 include         "build/system.in.settings"
 
 velocity all create 300.0 6842953 mom yes rot yes dist gaussian
