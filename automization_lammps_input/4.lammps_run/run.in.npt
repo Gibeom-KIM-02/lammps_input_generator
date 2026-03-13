@@ -5,7 +5,7 @@ variable datapath string build
 
 include         "build/system.in.init"
 read_data       "system_after_min.data"
-include         "build/system.in.charges"
+# include         "build/system.in.charges"
 include         "build/system.in.settings"
 
 # Optional: randomize initial velocities at 300 K
