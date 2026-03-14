@@ -1,0 +1,22 @@
+# LAMMPS NVT Production Input
+# ---------------------------
+
+variable datapath string build
+
+include         "build/system.in.init"
+read_data       "system_after_npt.data"
+# include         "build/system.in.charges"
+include         "build/system.in.settings"
+
+velocity all create 300.0 6842953 mom yes rot yes dist gaussian
+
+fix fxnvt all nvt temp 300.0 300.0 500.0 tchain 1
+
+dump dumpnvt all custom 5000 traj_nvt.lammpstrj id mol type x y z
+thermo 500
+timestep 2.0
+run 2000000
+
+unfix fxnvt
+write_data   system_after_nvt.data
+
