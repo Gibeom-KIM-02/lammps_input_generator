@@ -122,7 +122,8 @@ bash install_ligpargen_run.sh
 - **BOSS** is required for real parameter generation
 - some systems may additionally need 32-bit compatibility runtime for BOSS
 
-- If you want to get **BOSS** program, please refer to following site and download it. 
+- If you want to get **BOSS** program, please refer to following site and download it.
+  
   https://zarbi.chem.yale.edu/software.html
 
 ### Recommended shell setup
