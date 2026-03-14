@@ -11,5 +11,7 @@ python make_system_lt.py
 # 3. Generate LAMMPS input/data files with moltemplate
 moltemplate.sh -xyz input_files_structure/waterTIP3P+methane.xyz -atomstyle "full" system.lt
 
-echo "DONE. Check system.lt, system.in, and system.data!"
+# 4. Remove duplicate atom_style lines in system.in.init
+python postprocess_system_init.py system.in.init
 
+echo "DONE. Check system.lt, system.in, and system.data!"
