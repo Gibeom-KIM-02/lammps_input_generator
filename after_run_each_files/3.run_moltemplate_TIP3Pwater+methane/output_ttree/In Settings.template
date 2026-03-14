@@ -1,0 +1,23 @@
+pair_coeff @/atom:TIP3P/9999 @/atom:TIP3P/9999 0.1521 3.15061
+pair_coeff @/atom:TIP3P/9998 @/atom:TIP3P/9998 0.0    0.0
+
+bond_coeff  @/bond:TIP3P/tipO_tipH       450.0 0.9572
+angle_coeff @/angle:TIP3P/tipH_tipO_tipH 55.0  104.52
+
+group tip3p type @/atom:TIP3P/9999 @/atom:TIP3P/9998
+fix fShakeTIP3P tip3p shake 0.0001 10 100 b @/bond:TIP3P/tipO_tipH a @/angle:TIP3P/tipH_tipO_tipH
+  pair_coeff @/atom:Methane/METHANE_type1 @/atom:Methane/METHANE_type1 0.066 3.5000000
+  pair_coeff @/atom:Methane/METHANE_type2 @/atom:Methane/METHANE_type2 0.030 2.5000000
+  pair_coeff @/atom:Methane/METHANE_type3 @/atom:Methane/METHANE_type3 0.030 2.5000000
+  pair_coeff @/atom:Methane/METHANE_type4 @/atom:Methane/METHANE_type4 0.030 2.5000000
+  pair_coeff @/atom:Methane/METHANE_type5 @/atom:Methane/METHANE_type5 0.030 2.5000000
+  bond_coeff @/bond:Methane/METHANE_type1 340.0000 1.0900
+  bond_coeff @/bond:Methane/METHANE_type2 340.0000 1.0900
+  bond_coeff @/bond:Methane/METHANE_type3 340.0000 1.0900
+  bond_coeff @/bond:Methane/METHANE_type4 340.0000 1.0900
+  angle_coeff @/angle:Methane/METHANE_type1 33.000 107.800
+  angle_coeff @/angle:Methane/METHANE_type2 33.000 107.800
+  angle_coeff @/angle:Methane/METHANE_type3 33.000 107.800
+  angle_coeff @/angle:Methane/METHANE_type4 33.000 107.800
+  angle_coeff @/angle:Methane/METHANE_type5 33.000 107.800
+  angle_coeff @/angle:Methane/METHANE_type6 33.000 107.800

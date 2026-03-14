@@ -1,0 +1,95 @@
+  pair_coeff @/atom:Ethylene/ETHYLENE_type1 @/atom:Ethylene/ETHYLENE_type1 0.076 3.5500000
+  pair_coeff @/atom:Ethylene/ETHYLENE_type2 @/atom:Ethylene/ETHYLENE_type2 0.076 3.5500000
+  pair_coeff @/atom:Ethylene/ETHYLENE_type3 @/atom:Ethylene/ETHYLENE_type3 0.030 2.5000000
+  pair_coeff @/atom:Ethylene/ETHYLENE_type4 @/atom:Ethylene/ETHYLENE_type4 0.030 2.5000000
+  pair_coeff @/atom:Ethylene/ETHYLENE_type5 @/atom:Ethylene/ETHYLENE_type5 0.030 2.5000000
+  pair_coeff @/atom:Ethylene/ETHYLENE_type6 @/atom:Ethylene/ETHYLENE_type6 0.030 2.5000000
+  bond_coeff @/bond:Ethylene/ETHYLENE_type1 549.0000 1.3400
+  bond_coeff @/bond:Ethylene/ETHYLENE_type2 340.0000 1.0800
+  bond_coeff @/bond:Ethylene/ETHYLENE_type3 340.0000 1.0800
+  bond_coeff @/bond:Ethylene/ETHYLENE_type4 340.0000 1.0800
+  bond_coeff @/bond:Ethylene/ETHYLENE_type5 340.0000 1.0800
+  angle_coeff @/angle:Ethylene/ETHYLENE_type1 35.000 120.000
+  angle_coeff @/angle:Ethylene/ETHYLENE_type2 35.000 120.000
+  angle_coeff @/angle:Ethylene/ETHYLENE_type3 35.000 120.000
+  angle_coeff @/angle:Ethylene/ETHYLENE_type4 35.000 120.000
+  angle_coeff @/angle:Ethylene/ETHYLENE_type5 35.000 117.000
+  angle_coeff @/angle:Ethylene/ETHYLENE_type6 35.000 117.000
+  dihedral_coeff @/dihedral:Ethylene/ETHYLENE_type1 0.000 14.000 0.000 0.000
+  dihedral_coeff @/dihedral:Ethylene/ETHYLENE_type2 0.000 14.000 0.000 0.000
+  dihedral_coeff @/dihedral:Ethylene/ETHYLENE_type3 0.000 14.000 0.000 0.000
+  dihedral_coeff @/dihedral:Ethylene/ETHYLENE_type4 0.000 14.000 0.000 0.000
+  improper_coeff @/improper:Ethylene/ETHYLENE_type1 2.500 -1 2
+  improper_coeff @/improper:Ethylene/ETHYLENE_type2 2.500 -1 2
+  pair_coeff @/atom:Benzene/BENZENE_type1 @/atom:Benzene/BENZENE_type1 0.070 3.5500000
+  pair_coeff @/atom:Benzene/BENZENE_type2 @/atom:Benzene/BENZENE_type2 0.070 3.5500000
+  pair_coeff @/atom:Benzene/BENZENE_type3 @/atom:Benzene/BENZENE_type3 0.070 3.5500000
+  pair_coeff @/atom:Benzene/BENZENE_type4 @/atom:Benzene/BENZENE_type4 0.070 3.5500000
+  pair_coeff @/atom:Benzene/BENZENE_type5 @/atom:Benzene/BENZENE_type5 0.070 3.5500000
+  pair_coeff @/atom:Benzene/BENZENE_type6 @/atom:Benzene/BENZENE_type6 0.070 3.5500000
+  pair_coeff @/atom:Benzene/BENZENE_type7 @/atom:Benzene/BENZENE_type7 0.030 2.4200000
+  pair_coeff @/atom:Benzene/BENZENE_type8 @/atom:Benzene/BENZENE_type8 0.030 2.4200000
+  pair_coeff @/atom:Benzene/BENZENE_type9 @/atom:Benzene/BENZENE_type9 0.030 2.4200000
+  pair_coeff @/atom:Benzene/BENZENE_type10 @/atom:Benzene/BENZENE_type10 0.030 2.4200000
+  pair_coeff @/atom:Benzene/BENZENE_type11 @/atom:Benzene/BENZENE_type11 0.030 2.4200000
+  pair_coeff @/atom:Benzene/BENZENE_type12 @/atom:Benzene/BENZENE_type12 0.030 2.4200000
+  bond_coeff @/bond:Benzene/BENZENE_type1 469.0000 1.4000
+  bond_coeff @/bond:Benzene/BENZENE_type2 469.0000 1.4000
+  bond_coeff @/bond:Benzene/BENZENE_type3 469.0000 1.4000
+  bond_coeff @/bond:Benzene/BENZENE_type4 469.0000 1.4000
+  bond_coeff @/bond:Benzene/BENZENE_type5 469.0000 1.4000
+  bond_coeff @/bond:Benzene/BENZENE_type6 367.0000 1.0800
+  bond_coeff @/bond:Benzene/BENZENE_type7 367.0000 1.0800
+  bond_coeff @/bond:Benzene/BENZENE_type8 367.0000 1.0800
+  bond_coeff @/bond:Benzene/BENZENE_type9 367.0000 1.0800
+  bond_coeff @/bond:Benzene/BENZENE_type10 367.0000 1.0800
+  bond_coeff @/bond:Benzene/BENZENE_type11 367.0000 1.0800
+  bond_coeff @/bond:Benzene/BENZENE_type12 469.0000 1.4000
+  angle_coeff @/angle:Benzene/BENZENE_type1 63.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type2 63.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type3 63.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type4 63.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type5 35.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type6 35.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type7 35.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type8 35.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type9 35.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type10 35.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type11 35.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type12 35.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type13 35.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type14 35.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type15 63.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type16 35.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type17 35.000 120.000
+  angle_coeff @/angle:Benzene/BENZENE_type18 63.000 120.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type1 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type2 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type3 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type4 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type5 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type6 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type7 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type8 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type9 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type10 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type11 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type12 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type13 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type14 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type15 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type16 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type17 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type18 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type19 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type20 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type21 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type22 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type23 0.000 7.250 0.000 0.000
+  dihedral_coeff @/dihedral:Benzene/BENZENE_type24 0.000 7.250 0.000 0.000
+  improper_coeff @/improper:Benzene/BENZENE_type1 2.500 -1 2
+  improper_coeff @/improper:Benzene/BENZENE_type2 2.500 -1 2
+  improper_coeff @/improper:Benzene/BENZENE_type3 2.500 -1 2
+  improper_coeff @/improper:Benzene/BENZENE_type4 2.500 -1 2
+  improper_coeff @/improper:Benzene/BENZENE_type5 2.500 -1 2
+  improper_coeff @/improper:Benzene/BENZENE_type6 2.500 -1 2

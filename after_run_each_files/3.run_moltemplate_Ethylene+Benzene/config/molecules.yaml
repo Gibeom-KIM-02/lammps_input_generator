@@ -1,0 +1,23 @@
+# molecules.yaml
+# Molecule system configuration for make_system_lt.py
+
+global:
+  xyz_file: "input_files_structure/Ethylene+Benzene.xyz" # Input XYZ coordinates file
+  output_lt: "system.lt"                                 # Output LT file name
+  extra_imports:
+    - "input_files_lt/ff_custom.lt"    # If you want to import external forcefields, use "extra_imports (ff.lt)" (e.g. buckingham potential parameter)
+
+# Typing order of molecules should be same with xyz structure file's molecular order.
+molecules:
+  Ethylene:
+    instance_name: Ethylene
+    lt_path: "input_files_lt/Ethylene.lt"  
+    class_name: "Ethylene"                           
+    count_rule: "52"
+
+  Benzene:
+    instance_name: Benzene
+    lt_path: "input_files_lt/Benzene.lt"         
+    class_name: "Benzene"                        
+    count_rule: "26"
+

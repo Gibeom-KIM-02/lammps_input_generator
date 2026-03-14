@@ -1,0 +1,23 @@
+pair_coeff 1 1 0.1521 3.15061
+pair_coeff 2 2 0.0    0.0
+
+bond_coeff  1       450.0 0.9572
+angle_coeff 1 55.0  104.52
+
+group tip3p type 1 2
+fix fShakeTIP3P tip3p shake 0.0001 10 100 b 1 a 1
+  pair_coeff 3 3 0.066 3.5000000
+  pair_coeff 4 4 0.030 2.5000000
+  pair_coeff 5 5 0.030 2.5000000
+  pair_coeff 6 6 0.030 2.5000000
+  pair_coeff 7 7 0.030 2.5000000
+  bond_coeff 2 340.0000 1.0900
+  bond_coeff 3 340.0000 1.0900
+  bond_coeff 4 340.0000 1.0900
+  bond_coeff 5 340.0000 1.0900
+  angle_coeff 2 33.000 107.800
+  angle_coeff 3 33.000 107.800
+  angle_coeff 4 33.000 107.800
+  angle_coeff 5 33.000 107.800
+  angle_coeff 6 33.000 107.800
+  angle_coeff 7 33.000 107.800
