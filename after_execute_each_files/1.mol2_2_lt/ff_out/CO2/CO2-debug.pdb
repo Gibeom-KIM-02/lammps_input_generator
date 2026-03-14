@@ -1,6 +1,0 @@
-COMPND    CO2 molecule
-HETATM    1  C1  UNL     1       0.000   0.000   0.000  1.00  0.00           C  
-HETATM    2  O1  UNL     1      -0.033  -1.141   0.547  1.00  0.00           O1-
-HETATM    3  O2  UNL     1       0.039   1.075   0.697  1.00  0.00           O  
-CONECT    1    2    3    3
-END
