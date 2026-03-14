@@ -15,7 +15,7 @@ fix fxnvt all nvt temp 300.0 300.0 500.0 tchain 1
 dump dumpnvt all custom 5000 traj_nvt.lammpstrj id mol type x y z
 thermo 500
 timestep 2.0
-run 2000000
+run 5000000
 
 unfix fxnvt
 write_data   system_after_nvt.data
