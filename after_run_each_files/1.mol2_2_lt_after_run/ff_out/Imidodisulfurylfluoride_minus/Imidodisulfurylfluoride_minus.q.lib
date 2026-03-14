@@ -1,0 +1,29 @@
+*Generated with LigParGen (israel.cabezadevaca@yale.edu)
+
+{Imi}
+[atoms]
+   1   O08       O808        -0.5067
+   2   N00       N800        -2.1348
+   3   S01       S801         1.8256
+   4   S02       S802         1.8253
+   5   F03       F803        -0.2445
+   6   F04       F804        -0.2444
+   7   O05       O805        -0.5069
+   8   O06       O806        -0.5069
+   9   O07       O807        -0.5067
+
+[bonds]
+S01       N00       
+S02       N00       
+F03       S01       
+F04       S02       
+O05       S01       
+O06       S01       
+O07       S02       
+O08       S02       
+
+[impropers]
+
+[charge_groups]
+N00 S01 S02 F03 F04 O05 O06 O07 O08 
+

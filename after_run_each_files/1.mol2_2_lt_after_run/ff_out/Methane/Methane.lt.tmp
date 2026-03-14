@@ -1,0 +1,68 @@
+
+  ### LAMMPS commands for initialization
+  ### (These can be overridden later.)
+
+
+write_once("In Init") {
+  atom_style full
+}
+
+write_once("In Settings") {
+  pair_coeff @atom:type1 @atom:type1 0.066 3.5000000
+  pair_coeff @atom:type2 @atom:type2 0.030 2.5000000
+  pair_coeff @atom:type3 @atom:type3 0.030 2.5000000
+  pair_coeff @atom:type4 @atom:type4 0.030 2.5000000
+  pair_coeff @atom:type5 @atom:type5 0.030 2.5000000
+}
+
+write_once("In Settings") {
+  bond_coeff @bond:type1 340.0000 1.0900
+  bond_coeff @bond:type2 340.0000 1.0900
+  bond_coeff @bond:type3 340.0000 1.0900
+  bond_coeff @bond:type4 340.0000 1.0900
+}
+
+write_once("In Settings") {
+  angle_coeff @angle:type1 33.000 107.800
+  angle_coeff @angle:type2 33.000 107.800
+  angle_coeff @angle:type3 33.000 107.800
+  angle_coeff @angle:type4 33.000 107.800
+  angle_coeff @angle:type5 33.000 107.800
+  angle_coeff @angle:type6 33.000 107.800
+}
+
+
+  ### DATA sections
+
+
+write_once("Data Masses") {
+  @atom:type1 12.011
+  @atom:type2 1.008
+  @atom:type3 1.008
+  @atom:type4 1.008
+  @atom:type5 1.008
+}
+
+write("Data Atoms") {
+  $atom:type1 $mol:m1 @atom:type1 -0.299143 0.00000 0.00000 0.00000
+  $atom:type2 $mol:m1 @atom:type2 0.074786 0.62900 0.62900 0.62900
+  $atom:type3 $mol:m1 @atom:type3 0.074786 -0.62900 -0.62900 0.62900
+  $atom:type4 $mol:m1 @atom:type4 0.074786 -0.62900 0.62900 -0.62900
+  $atom:type5 $mol:m1 @atom:type5 0.074785 0.62900 -0.62900 -0.62900
+}
+
+write("Data Bonds") {
+  $bond:id1 @bond:type1 $atom:type2 $atom:type1
+  $bond:id2 @bond:type2 $atom:type3 $atom:type1
+  $bond:id3 @bond:type3 $atom:type4 $atom:type1
+  $bond:id4 @bond:type4 $atom:type5 $atom:type1
+}
+
+write("Data Angles") {
+  $angle:id1 @angle:type1 $atom:type3 $atom:type1 $atom:type2
+  $angle:id2 @angle:type2 $atom:type4 $atom:type1 $atom:type2
+  $angle:id3 @angle:type3 $atom:type5 $atom:type1 $atom:type2
+  $angle:id4 @angle:type4 $atom:type4 $atom:type1 $atom:type3
+  $angle:id5 @angle:type5 $atom:type5 $atom:type1 $atom:type3
+  $angle:id6 @angle:type6 $atom:type5 $atom:type1 $atom:type4
+}

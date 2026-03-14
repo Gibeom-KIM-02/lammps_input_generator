@@ -1,0 +1,56 @@
+2026-03-14 14:51:57 — INFO — INPUT FILE: /home/users/Beom/work/1.Project/0.automization/automization_lammps_input/1.mol2_2_lt_after_run/input_files/Imidodisulfurylfluoride_minus.mol2
+2026-03-14 14:51:57 — INFO — NUMBER OF OPTIMIZATIONS: 2
+2026-03-14 14:51:57 — INFO — Parsing molecule from input: /home/users/Beom/work/1.Project/0.automization/automization_lammps_input/1.mol2_2_lt_after_run/input_files/Imidodisulfurylfluoride_minus.mol2
+2026-03-14 14:51:57 — INFO — Retreiving atom names form MOL:/home/users/Beom/work/1.Project/0.automization/automization_lammps_input/1.mol2_2_lt_after_run/input_files/Imidodisulfurylfluoride_minus.mol2
+2026-03-14 14:51:57 — INFO — Center of mass position:  0.000  0.000  0.000
+2026-03-14 14:51:57 — INFO — Closest atom to the center of mass: N  8 with distance :  0.819  (A) 
+2026-03-14 14:51:57 — WARNING — AUTO DETECTED CHARGE: 0  USER INPUT CHARGE: -1  (NOT MATCHING CHARGES)
+2026-03-14 14:51:57 — INFO — MOLECULE CHARGE USED: -1
+2026-03-14 14:51:57 — INFO — CHARGE ALGORITHM USED: CM1A
+2026-03-14 14:51:57 — INFO — RESIDUE NAME USED: Imidodisulfurylfluoride_minus
+2026-03-14 14:51:57 — INFO — Parsing Bonds, Angles and dihedrals
+2026-03-14 14:51:57 — INFO — Parsing Atoms
+2026-03-14 14:51:57 — INFO — --- SUMMARY MOLECULE STRUCTURE ---
+2026-03-14 14:51:57 — INFO — Number of Atoms: 12
+2026-03-14 14:51:57 — INFO — Number of Variable Bonds: 8
+2026-03-14 14:51:57 — INFO — Number of Additional Bonds: 0
+2026-03-14 14:51:57 — INFO — Number of Variable Angles: 7
+2026-03-14 14:51:57 — INFO — Number of Additional Angles: 6
+2026-03-14 14:51:57 — INFO — Number of Variable Torsions: 6
+2026-03-14 14:51:57 — INFO — Number of Additional Torsions: 0
+2026-03-14 14:51:57 — INFO — Number of excluded Atoms: 0
+2026-03-14 14:51:57 — INFO — Generating Zmat
+2026-03-14 14:51:57 — INFO — Running BOSS
+2026-03-14 14:51:59 — INFO — Running BOSS optimization ... 1
+2026-03-14 14:51:59 — INFO — Running BOSS optimization ... 2
+2026-03-14 14:52:00 — INFO — Parsing BOSS molecule outputs
+2026-03-14 14:52:00 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:00 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:00 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:00 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:00 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:00 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:00 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:00 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:00 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:00 — INFO — Generating Q inputs
+2026-03-14 14:52:00 — INFO — Generating Gromacs inputs
+2026-03-14 14:52:00 — INFO — Generating CHARMM/NAMD inputs
+2026-03-14 14:52:00 — INFO — Generating TINKER inputs
+2026-03-14 14:52:00 — INFO — Generating openMM inputs
+2026-03-14 14:52:00 — INFO — Generating PQR inputs
+2026-03-14 14:52:00 — INFO — Generating DESMOND inputs
+2026-03-14 14:52:00 — INFO — Generating LAMMPS inputs
+2026-03-14 14:52:00 — INFO — Generating XPLOR inputs
+2026-03-14 14:52:00 — INFO —             
+    
+                    LigParGen finished succesfully!
+    
+    Please do not forget to cite the following references: 
+
+        1. LigParGen web server: an automatic OPLS-AA parameter generator for organic ligands  
+           Leela S. Dodda  Israel Cabeza de Vaca  Julian Tirado-Rives William L. Jorgensen 
+           Nucleic Acids Research, Volume 45, Issue W1, 3 July 2017, Pages W331–W336
+
+        2. 1.14*CM1A-LBCC: Localized Bond-Charge Corrected CM1A Charges for Condensed-Phase Simulations
+    

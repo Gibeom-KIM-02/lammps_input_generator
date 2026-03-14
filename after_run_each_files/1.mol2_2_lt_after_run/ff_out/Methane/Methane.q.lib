@@ -1,0 +1,21 @@
+*Generated with LigParGen (israel.cabezadevaca@yale.edu)
+
+{CH4}
+[atoms]
+   1   C00       C800        -0.2991
+   2   H01       H801         0.0748
+   3   H02       H802         0.0748
+   4   H03       H803         0.0748
+   5   H04       H804         0.0748
+
+[bonds]
+H01       C00       
+H02       C00       
+H03       C00       
+H04       C00       
+
+[impropers]
+
+[charge_groups]
+C00 H01 H02 H03 H04 
+

@@ -1,0 +1,52 @@
+2026-03-14 14:52:01 — INFO — INPUT FILE: /home/users/Beom/work/1.Project/0.automization/automization_lammps_input/1.mol2_2_lt_after_run/input_files/Methane.mol2
+2026-03-14 14:52:01 — INFO — NUMBER OF OPTIMIZATIONS: 3
+2026-03-14 14:52:01 — INFO — Parsing molecule from input: /home/users/Beom/work/1.Project/0.automization/automization_lammps_input/1.mol2_2_lt_after_run/input_files/Methane.mol2
+2026-03-14 14:52:01 — INFO — Retreiving atom names form MOL:/home/users/Beom/work/1.Project/0.automization/automization_lammps_input/1.mol2_2_lt_after_run/input_files/Methane.mol2
+2026-03-14 14:52:01 — INFO — Center of mass position:  0.000  0.000  0.000
+2026-03-14 14:52:01 — INFO — Closest atom to the center of mass: C  0 with distance :  0.000  (A) 
+2026-03-14 14:52:01 — INFO — MOLECULE CHARGE USED: 0
+2026-03-14 14:52:01 — INFO — CHARGE ALGORITHM USED: CM1A
+2026-03-14 14:52:01 — INFO — RESIDUE NAME USED: CH4
+2026-03-14 14:52:01 — INFO — Parsing Bonds, Angles and dihedrals
+2026-03-14 14:52:01 — INFO — Parsing Atoms
+2026-03-14 14:52:01 — INFO — --- SUMMARY MOLECULE STRUCTURE ---
+2026-03-14 14:52:01 — INFO — Number of Atoms: 8
+2026-03-14 14:52:01 — INFO — Number of Variable Bonds: 4
+2026-03-14 14:52:01 — INFO — Number of Additional Bonds: 0
+2026-03-14 14:52:01 — INFO — Number of Variable Angles: 3
+2026-03-14 14:52:01 — INFO — Number of Additional Angles: 3
+2026-03-14 14:52:01 — INFO — Number of Variable Torsions: 0
+2026-03-14 14:52:01 — INFO — Number of Additional Torsions: 0
+2026-03-14 14:52:01 — INFO — Number of excluded Atoms: 0
+2026-03-14 14:52:01 — INFO — Generating Zmat
+2026-03-14 14:52:01 — INFO — Running BOSS
+2026-03-14 14:52:02 — INFO — Running BOSS optimization ... 1
+2026-03-14 14:52:03 — INFO — Running BOSS optimization ... 2
+2026-03-14 14:52:03 — INFO — Running BOSS optimization ... 3
+2026-03-14 14:52:04 — INFO — Parsing BOSS molecule outputs
+2026-03-14 14:52:04 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:04 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:04 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:04 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:04 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:52:04 — INFO — Generating Q inputs
+2026-03-14 14:52:04 — INFO — Generating Gromacs inputs
+2026-03-14 14:52:04 — INFO — Generating CHARMM/NAMD inputs
+2026-03-14 14:52:04 — INFO — Generating TINKER inputs
+2026-03-14 14:52:04 — INFO — Generating openMM inputs
+2026-03-14 14:52:04 — INFO — Generating PQR inputs
+2026-03-14 14:52:04 — INFO — Generating DESMOND inputs
+2026-03-14 14:52:04 — INFO — Generating LAMMPS inputs
+2026-03-14 14:52:04 — INFO — Generating XPLOR inputs
+2026-03-14 14:52:04 — INFO —             
+    
+                    LigParGen finished succesfully!
+    
+    Please do not forget to cite the following references: 
+
+        1. LigParGen web server: an automatic OPLS-AA parameter generator for organic ligands  
+           Leela S. Dodda  Israel Cabeza de Vaca  Julian Tirado-Rives William L. Jorgensen 
+           Nucleic Acids Research, Volume 45, Issue W1, 3 July 2017, Pages W331–W336
+
+        2. 1.14*CM1A-LBCC: Localized Bond-Charge Corrected CM1A Charges for Condensed-Phase Simulations
+    
