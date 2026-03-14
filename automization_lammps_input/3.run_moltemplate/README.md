@@ -48,6 +48,10 @@ Put your packed structure in:
 input_files_structure/<system>.xyz
 ```
 
+> **Need help generating the input XYZ with PACKMOL?**
+>  
+> See the companion repository [`packmol_runner`](https://github.com/Gibeom-KIM-02/packmol_runner) for structure-building workflows.
+
 ### 2) Prepare LT fragments
 Put all `.lt` fragments (molecules/ions/solvents/slabs and optional `ff_custom.lt`) in:
 ```bash
