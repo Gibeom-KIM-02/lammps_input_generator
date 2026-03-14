@@ -10,4 +10,3 @@
   pair_modify     mix geometric
   special_bonds   lj/coul 0.0 0.0 0.5
   kspace_style    pppm 1.0e-4
-  atom_style full
