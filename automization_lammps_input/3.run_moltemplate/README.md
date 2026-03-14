@@ -190,7 +190,32 @@ These files are considered **build artifacts** and may be overwritten on rerun.
 
 ## Credits
 
+Please cite or acknowledge the following tools as appropriate:
+
+- LigParGen
 - Moltemplate
-- LAMMPS
-- PACKMOL / ASE (structure preparation)
-- Automation script: `make_system_lt.py`
+- ltemplify.py
+- Packmol
+- ASE (Atomic Simulation Environment)
+
+Custom workflow scripting and post-processing are repository-specific.
+
+## License
+
+The original code and workflow assembly in this repository are distributed under the **MIT License**.
+
+Copyright (c) 2025 Gibeom Kim, THEMMES Group
+
+This repository may invoke or rely on third-party software distributed under their own licenses, including Moltemplate, LigParGen, Packmol, and ASE. Those components remain the property of their respective authors and are subject to their original license terms.
+
+- Moltemplate — MIT License  
+  Copyright (c) 2013, Andrew Jewett, University of California Santa Barbara
+
+- LigParGen — MIT License  
+  Copyright (c) 2020 Israel Cabeza de Vaca Lopez
+
+- Packmol — MIT License  
+  Please cite the Packmol reference(s) below when the software is used in published work.
+
+- ASE (Atomic Simulation Environment) — GNU LGPL v2.1 or later  
+  Please cite the ASE reference below when the software is used in published work.
