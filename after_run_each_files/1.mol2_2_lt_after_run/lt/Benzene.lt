@@ -1,0 +1,184 @@
+Benzene {
+
+  write_once("In Init") {
+  atom_style full
+  }
+
+  write_once("In Settings") {
+  pair_coeff @atom:BENZENE_type1 @atom:BENZENE_type1 0.070 3.5500000
+  pair_coeff @atom:BENZENE_type2 @atom:BENZENE_type2 0.070 3.5500000
+  pair_coeff @atom:BENZENE_type3 @atom:BENZENE_type3 0.070 3.5500000
+  pair_coeff @atom:BENZENE_type4 @atom:BENZENE_type4 0.070 3.5500000
+  pair_coeff @atom:BENZENE_type5 @atom:BENZENE_type5 0.070 3.5500000
+  pair_coeff @atom:BENZENE_type6 @atom:BENZENE_type6 0.070 3.5500000
+  pair_coeff @atom:BENZENE_type7 @atom:BENZENE_type7 0.030 2.4200000
+  pair_coeff @atom:BENZENE_type8 @atom:BENZENE_type8 0.030 2.4200000
+  pair_coeff @atom:BENZENE_type9 @atom:BENZENE_type9 0.030 2.4200000
+  pair_coeff @atom:BENZENE_type10 @atom:BENZENE_type10 0.030 2.4200000
+  pair_coeff @atom:BENZENE_type11 @atom:BENZENE_type11 0.030 2.4200000
+  pair_coeff @atom:BENZENE_type12 @atom:BENZENE_type12 0.030 2.4200000
+  bond_coeff @bond:BENZENE_type1 469.0000 1.4000
+  bond_coeff @bond:BENZENE_type2 469.0000 1.4000
+  bond_coeff @bond:BENZENE_type3 469.0000 1.4000
+  bond_coeff @bond:BENZENE_type4 469.0000 1.4000
+  bond_coeff @bond:BENZENE_type5 469.0000 1.4000
+  bond_coeff @bond:BENZENE_type6 367.0000 1.0800
+  bond_coeff @bond:BENZENE_type7 367.0000 1.0800
+  bond_coeff @bond:BENZENE_type8 367.0000 1.0800
+  bond_coeff @bond:BENZENE_type9 367.0000 1.0800
+  bond_coeff @bond:BENZENE_type10 367.0000 1.0800
+  bond_coeff @bond:BENZENE_type11 367.0000 1.0800
+  bond_coeff @bond:BENZENE_type12 469.0000 1.4000
+  angle_coeff @angle:BENZENE_type1 63.000 120.000
+  angle_coeff @angle:BENZENE_type2 63.000 120.000
+  angle_coeff @angle:BENZENE_type3 63.000 120.000
+  angle_coeff @angle:BENZENE_type4 63.000 120.000
+  angle_coeff @angle:BENZENE_type5 35.000 120.000
+  angle_coeff @angle:BENZENE_type6 35.000 120.000
+  angle_coeff @angle:BENZENE_type7 35.000 120.000
+  angle_coeff @angle:BENZENE_type8 35.000 120.000
+  angle_coeff @angle:BENZENE_type9 35.000 120.000
+  angle_coeff @angle:BENZENE_type10 35.000 120.000
+  angle_coeff @angle:BENZENE_type11 35.000 120.000
+  angle_coeff @angle:BENZENE_type12 35.000 120.000
+  angle_coeff @angle:BENZENE_type13 35.000 120.000
+  angle_coeff @angle:BENZENE_type14 35.000 120.000
+  angle_coeff @angle:BENZENE_type15 63.000 120.000
+  angle_coeff @angle:BENZENE_type16 35.000 120.000
+  angle_coeff @angle:BENZENE_type17 35.000 120.000
+  angle_coeff @angle:BENZENE_type18 63.000 120.000
+  dihedral_coeff @dihedral:BENZENE_type1 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type2 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type3 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type4 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type5 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type6 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type7 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type8 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type9 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type10 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type11 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type12 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type13 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type14 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type15 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type16 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type17 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type18 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type19 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type20 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type21 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type22 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type23 0.000 7.250 0.000 0.000
+  dihedral_coeff @dihedral:BENZENE_type24 0.000 7.250 0.000 0.000
+  improper_coeff @improper:BENZENE_type1 2.500 -1 2
+  improper_coeff @improper:BENZENE_type2 2.500 -1 2
+  improper_coeff @improper:BENZENE_type3 2.500 -1 2
+  improper_coeff @improper:BENZENE_type4 2.500 -1 2
+  improper_coeff @improper:BENZENE_type5 2.500 -1 2
+  improper_coeff @improper:BENZENE_type6 2.500 -1 2
+  }
+
+  write_once("Data Masses") {
+  @atom:BENZENE_type1 12.011
+  @atom:BENZENE_type2 12.011
+  @atom:BENZENE_type3 12.011
+  @atom:BENZENE_type4 12.011
+  @atom:BENZENE_type5 12.011
+  @atom:BENZENE_type6 12.011
+  @atom:BENZENE_type7 1.008
+  @atom:BENZENE_type8 1.008
+  @atom:BENZENE_type9 1.008
+  @atom:BENZENE_type10 1.008
+  @atom:BENZENE_type11 1.008
+  @atom:BENZENE_type12 1.008
+  }
+
+  write("Data Atoms") {
+$atom:type1 $mol:m1 @atom:BENZENE_type1 -0.147307 -1.23800 -0.70200 0.00000
+$atom:type2 $mol:m1 @atom:BENZENE_type2 -0.147259 -1.22700 0.70700 0.00000
+$atom:type3 $mol:m1 @atom:BENZENE_type3 -0.147296 -0.02300 -1.41600 0.00000
+$atom:type4 $mol:m1 @atom:BENZENE_type4 -0.147296 -0.00200 1.40200 0.00000
+$atom:type5 $mol:m1 @atom:BENZENE_type5 -0.147259 1.20200 -0.72100 0.00000
+$atom:type6 $mol:m1 @atom:BENZENE_type6 -0.147307 1.21300 0.68800 0.00000
+$atom:type7 $mol:m1 @atom:BENZENE_type7 0.147239 -2.17800 -1.23500 0.00000
+$atom:type8 $mol:m1 @atom:BENZENE_type8 0.147221 -2.15900 1.25400 0.00000
+$atom:type9 $mol:m1 @atom:BENZENE_type9 0.147400 -0.03200 -2.49600 0.00000
+$atom:type10 $mol:m1 @atom:BENZENE_type10 0.147400 0.00700 2.48200 0.00000
+$atom:type11 $mol:m1 @atom:BENZENE_type11 0.147221 2.13400 -1.26800 0.00000
+$atom:type12 $mol:m1 @atom:BENZENE_type12 0.147243 2.15300 1.22100 0.00000
+  }
+
+  write("Data Bonds") {
+  $bond:id1 @bond:BENZENE_type1 $atom:type4 $atom:type6
+  $bond:id2 @bond:BENZENE_type2 $atom:type5 $atom:type6
+  $bond:id3 @bond:BENZENE_type3 $atom:type2 $atom:type4
+  $bond:id4 @bond:BENZENE_type4 $atom:type3 $atom:type5
+  $bond:id5 @bond:BENZENE_type5 $atom:type1 $atom:type3
+  $bond:id6 @bond:BENZENE_type6 $atom:type7 $atom:type1
+  $bond:id7 @bond:BENZENE_type7 $atom:type8 $atom:type2
+  $bond:id8 @bond:BENZENE_type8 $atom:type9 $atom:type3
+  $bond:id9 @bond:BENZENE_type9 $atom:type10 $atom:type4
+  $bond:id10 @bond:BENZENE_type10 $atom:type11 $atom:type5
+  $bond:id11 @bond:BENZENE_type11 $atom:type12 $atom:type6
+  $bond:id12 @bond:BENZENE_type12 $atom:type1 $atom:type2
+  }
+
+  write("Data Angles") {
+  $angle:id1 @angle:BENZENE_type1 $atom:type5 $atom:type6 $atom:type4
+  $angle:id2 @angle:BENZENE_type2 $atom:type2 $atom:type4 $atom:type6
+  $angle:id3 @angle:BENZENE_type3 $atom:type3 $atom:type5 $atom:type6
+  $angle:id4 @angle:BENZENE_type4 $atom:type1 $atom:type3 $atom:type5
+  $angle:id5 @angle:BENZENE_type5 $atom:type7 $atom:type1 $atom:type3
+  $angle:id6 @angle:BENZENE_type6 $atom:type8 $atom:type2 $atom:type4
+  $angle:id7 @angle:BENZENE_type7 $atom:type9 $atom:type3 $atom:type5
+  $angle:id8 @angle:BENZENE_type8 $atom:type10 $atom:type4 $atom:type6
+  $angle:id9 @angle:BENZENE_type9 $atom:type11 $atom:type5 $atom:type6
+  $angle:id10 @angle:BENZENE_type10 $atom:type12 $atom:type6 $atom:type4
+  $angle:id11 @angle:BENZENE_type11 $atom:type12 $atom:type6 $atom:type5
+  $angle:id12 @angle:BENZENE_type12 $atom:type10 $atom:type4 $atom:type2
+  $angle:id13 @angle:BENZENE_type13 $atom:type11 $atom:type5 $atom:type3
+  $angle:id14 @angle:BENZENE_type14 $atom:type9 $atom:type3 $atom:type1
+  $angle:id15 @angle:BENZENE_type15 $atom:type4 $atom:type2 $atom:type1
+  $angle:id16 @angle:BENZENE_type16 $atom:type8 $atom:type2 $atom:type1
+  $angle:id17 @angle:BENZENE_type17 $atom:type2 $atom:type1 $atom:type7
+  $angle:id18 @angle:BENZENE_type18 $atom:type3 $atom:type1 $atom:type2
+  }
+
+  write("Data Dihedrals") {
+  $dihedral:id1 @dihedral:BENZENE_type1 $atom:type2 $atom:type4 $atom:type6 $atom:type5
+  $dihedral:id2 @dihedral:BENZENE_type2 $atom:type3 $atom:type5 $atom:type6 $atom:type4
+  $dihedral:id3 @dihedral:BENZENE_type3 $atom:type1 $atom:type3 $atom:type5 $atom:type6
+  $dihedral:id4 @dihedral:BENZENE_type4 $atom:type7 $atom:type1 $atom:type3 $atom:type5
+  $dihedral:id5 @dihedral:BENZENE_type5 $atom:type8 $atom:type2 $atom:type4 $atom:type6
+  $dihedral:id6 @dihedral:BENZENE_type6 $atom:type9 $atom:type3 $atom:type5 $atom:type6
+  $dihedral:id7 @dihedral:BENZENE_type7 $atom:type10 $atom:type4 $atom:type6 $atom:type5
+  $dihedral:id8 @dihedral:BENZENE_type8 $atom:type11 $atom:type5 $atom:type6 $atom:type4
+  $dihedral:id9 @dihedral:BENZENE_type9 $atom:type12 $atom:type6 $atom:type4 $atom:type2
+  $dihedral:id10 @dihedral:BENZENE_type10 $atom:type12 $atom:type6 $atom:type5 $atom:type3
+  $dihedral:id11 @dihedral:BENZENE_type11 $atom:type11 $atom:type5 $atom:type3 $atom:type1
+  $dihedral:id12 @dihedral:BENZENE_type12 $atom:type6 $atom:type4 $atom:type2 $atom:type1
+  $dihedral:id13 @dihedral:BENZENE_type13 $atom:type10 $atom:type4 $atom:type2 $atom:type1
+  $dihedral:id14 @dihedral:BENZENE_type14 $atom:type9 $atom:type3 $atom:type1 $atom:type7
+  $dihedral:id15 @dihedral:BENZENE_type15 $atom:type4 $atom:type2 $atom:type1 $atom:type7
+  $dihedral:id16 @dihedral:BENZENE_type16 $atom:type8 $atom:type2 $atom:type1 $atom:type7
+  $dihedral:id17 @dihedral:BENZENE_type17 $atom:type10 $atom:type4 $atom:type2 $atom:type8
+  $dihedral:id18 @dihedral:BENZENE_type18 $atom:type3 $atom:type1 $atom:type2 $atom:type8
+  $dihedral:id19 @dihedral:BENZENE_type19 $atom:type11 $atom:type5 $atom:type3 $atom:type9
+  $dihedral:id20 @dihedral:BENZENE_type20 $atom:type2 $atom:type1 $atom:type3 $atom:type9
+  $dihedral:id21 @dihedral:BENZENE_type21 $atom:type12 $atom:type6 $atom:type4 $atom:type10
+  $dihedral:id22 @dihedral:BENZENE_type22 $atom:type12 $atom:type6 $atom:type5 $atom:type11
+  $dihedral:id23 @dihedral:BENZENE_type23 $atom:type5 $atom:type3 $atom:type1 $atom:type2
+  $dihedral:id24 @dihedral:BENZENE_type24 $atom:type4 $atom:type2 $atom:type1 $atom:type3
+  }
+
+  write("Data Impropers") {
+  $improper:id1 @improper:BENZENE_type1 $atom:type4 $atom:type6 $atom:type5 $atom:type12
+  $improper:id2 @improper:BENZENE_type2 $atom:type6 $atom:type4 $atom:type2 $atom:type10
+  $improper:id3 @improper:BENZENE_type3 $atom:type6 $atom:type5 $atom:type3 $atom:type11
+  $improper:id4 @improper:BENZENE_type4 $atom:type4 $atom:type2 $atom:type1 $atom:type8
+  $improper:id5 @improper:BENZENE_type5 $atom:type5 $atom:type3 $atom:type1 $atom:type9
+  $improper:id6 @improper:BENZENE_type6 $atom:type3 $atom:type1 $atom:type2 $atom:type7
+  }
+
+}

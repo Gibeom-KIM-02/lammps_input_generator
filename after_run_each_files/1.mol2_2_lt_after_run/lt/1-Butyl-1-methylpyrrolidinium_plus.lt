@@ -1,0 +1,475 @@
+1-Butyl-1-methylpyrrolidinium_plus {
+
+  write_once("In Init") {
+  atom_style full
+  }
+
+  write_once("In Settings") {
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type1 0.170 3.2500000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type2 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type2 0.066 3.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type3 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type3 0.066 3.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type4 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type4 0.066 3.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type5 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type5 0.066 3.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type6 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type6 0.066 3.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type7 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type7 0.066 3.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type8 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type8 0.066 3.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type9 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type9 0.066 3.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type10 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type10 0.066 3.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type11 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type11 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type12 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type12 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type13 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type13 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type14 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type14 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type15 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type15 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type16 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type16 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type17 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type17 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type18 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type18 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type19 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type19 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type20 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type20 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type21 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type21 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type22 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type22 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type23 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type23 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type24 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type24 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type25 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type25 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type26 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type26 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type27 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type27 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type28 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type28 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type29 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type29 0.030 2.5000000
+  pair_coeff @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type30 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type30 0.030 2.5000000
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type1 367.0000 1.4710
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type2 367.0000 1.4710
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type3 268.0000 1.5290
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type4 268.0000 1.5290
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type5 268.0000 1.5290
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type6 367.0000 1.4710
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type7 268.0000 1.5290
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type8 268.0000 1.5290
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type9 268.0000 1.5290
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type10 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type11 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type12 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type13 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type14 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type15 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type16 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type17 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type18 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type19 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type20 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type21 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type22 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type23 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type24 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type25 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type26 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type27 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type28 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type29 340.0000 1.0900
+  bond_coeff @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type30 367.0000 1.4710
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type1 50.000 113.000
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type2 80.000 111.200
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type3 58.350 112.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type4 58.350 112.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type5 50.000 113.000
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type6 80.000 111.200
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type7 58.350 112.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type8 58.350 112.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type9 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type10 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type11 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type12 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type13 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type14 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type15 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type16 35.000 109.500
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type17 35.000 109.500
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type18 35.000 109.500
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type19 35.000 109.500
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type20 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type21 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type22 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type23 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type24 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type25 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type26 35.000 109.500
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type27 35.000 109.500
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type28 35.000 109.500
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type29 50.000 113.000
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type30 50.000 113.000
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type31 50.000 113.000
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type32 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type33 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type34 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type35 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type36 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type37 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type38 50.000 113.000
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type39 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type40 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type41 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type42 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type43 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type44 37.500 110.700
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type45 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type46 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type47 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type48 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type49 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type50 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type51 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type52 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type53 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type54 35.000 109.500
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type55 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type56 35.000 109.500
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type57 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type58 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type59 33.000 107.800
+  angle_coeff @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type60 80.000 111.200
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type1 1.438 -0.124 0.264 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type2 2.732 -0.229 0.485 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type3 0.850 -0.200 0.200 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type4 1.438 -0.124 0.264 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type5 1.438 -0.124 0.264 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type6 2.732 -0.229 0.485 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type7 0.850 -0.200 0.200 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type8 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type9 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type10 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type11 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type12 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type13 0.000 0.000 0.384 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type14 0.000 0.000 0.384 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type15 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type16 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type17 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type18 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type19 0.000 0.000 0.384 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type20 0.000 0.000 0.384 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type21 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type22 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type23 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type24 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type25 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type26 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type27 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type28 1.438 -0.124 0.264 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type29 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type30 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type31 1.438 -0.124 0.264 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type32 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type33 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type34 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type35 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type36 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type37 1.438 -0.124 0.264 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type38 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type39 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type40 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type41 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type42 1.438 -0.124 0.264 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type43 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type44 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type45 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type46 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type47 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type48 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type49 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type50 1.438 -0.124 0.264 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type51 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type52 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type53 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type54 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type55 1.438 -0.124 0.264 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type56 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type57 0.000 0.000 0.302 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type58 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type59 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type60 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type61 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type62 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type63 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type64 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type65 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type66 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type67 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type68 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type69 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type70 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type71 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type72 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type73 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type74 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type75 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type76 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type77 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type78 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type79 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type80 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type81 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type82 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type83 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type84 0.000 0.000 0.384 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type85 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type86 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type87 0.000 0.000 0.384 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type88 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type89 0.000 0.000 0.300 0.000
+  dihedral_coeff @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type90 2.732 -0.229 0.485 0.000
+  }
+
+  write_once("Data Masses") {
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type1 14.007
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type2 12.011
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type3 12.011
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type4 12.011
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type5 12.011
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type6 12.011
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type7 12.011
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type8 12.011
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type9 12.011
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type10 12.011
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type11 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type12 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type13 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type14 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type15 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type16 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type17 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type18 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type19 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type20 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type21 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type22 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type23 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type24 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type25 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type26 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type27 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type28 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type29 1.008
+  @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type30 1.008
+  }
+
+  write("Data Atoms") {
+$atom:type1 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type1 0.256168 -0.70500 0.13200 -0.43100
+$atom:type2 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type2 -0.185924 0.46000 1.03600 -0.68500
+$atom:type3 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type3 -0.196401 -0.73300 -0.39600 0.96200
+$atom:type4 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type4 -0.191043 -2.19600 -0.71900 1.30400
+$atom:type5 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type5 -0.205949 -3.02100 0.13700 0.34100
+$atom:type6 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type6 -0.180022 -1.98100 0.90000 -0.49300
+$atom:type7 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type7 -0.228667 -0.74400 -0.98200 -1.41900
+$atom:type8 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type8 -0.196570 1.85400 0.36200 -0.61000
+$atom:type9 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type9 -0.184067 2.45900 0.01600 -1.98500
+$atom:type10 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type10 -0.218915 3.84800 -0.62300 -1.86700
+$atom:type11 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type11 0.089234 4.55600 0.04000 -1.36700
+$atom:type12 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type12 0.089234 3.81900 -1.56100 -1.30900
+$atom:type13 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type13 0.089234 4.26000 -0.84600 -2.85200
+$atom:type14 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type14 0.089094 2.54600 0.92100 -2.59100
+$atom:type15 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type15 0.089094 1.81400 -0.66000 -2.54600
+$atom:type16 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type16 0.124243 2.54100 1.06300 -0.12800
+$atom:type17 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type17 0.124243 1.85500 -0.51300 0.04000
+$atom:type18 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type18 0.140064 0.44600 1.84800 0.04800
+$atom:type19 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type19 0.140064 0.34500 1.54100 -1.64800
+$atom:type20 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type20 0.155895 -0.37600 0.36700 1.66000
+$atom:type21 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type21 0.155895 -0.08300 -1.26200 1.11100
+$atom:type22 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type22 0.130888 -2.42600 -0.50400 2.35100
+$atom:type23 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type23 0.130888 -2.41100 -1.77900 1.15100
+$atom:type24 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type24 0.132813 -3.69800 0.81500 0.86600
+$atom:type25 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type25 0.132813 -3.64800 -0.49700 -0.29200
+$atom:type26 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type26 0.149189 -1.85200 1.88900 -0.04400
+$atom:type27 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type27 0.149189 -2.32400 1.08200 -1.51500
+$atom:type28 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type28 0.139771 -1.64000 -1.59600 -1.31800
+$atom:type29 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type29 0.139771 -0.72800 -0.60800 -2.44500
+$atom:type30 $mol:m1 @atom:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type30 0.139774 0.10500 -1.65600 -1.30600
+  }
+
+  write("Data Bonds") {
+  $bond:id1 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type1 $atom:type2 $atom:type1
+  $bond:id2 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type2 $atom:type3 $atom:type1
+  $bond:id3 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type3 $atom:type4 $atom:type3
+  $bond:id4 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type4 $atom:type5 $atom:type4
+  $bond:id5 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type5 $atom:type6 $atom:type5
+  $bond:id6 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type6 $atom:type7 $atom:type1
+  $bond:id7 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type7 $atom:type8 $atom:type2
+  $bond:id8 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type8 $atom:type9 $atom:type8
+  $bond:id9 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type9 $atom:type10 $atom:type9
+  $bond:id10 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type10 $atom:type11 $atom:type10
+  $bond:id11 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type11 $atom:type12 $atom:type10
+  $bond:id12 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type12 $atom:type13 $atom:type10
+  $bond:id13 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type13 $atom:type14 $atom:type9
+  $bond:id14 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type14 $atom:type15 $atom:type9
+  $bond:id15 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type15 $atom:type16 $atom:type8
+  $bond:id16 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type16 $atom:type17 $atom:type8
+  $bond:id17 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type17 $atom:type18 $atom:type2
+  $bond:id18 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type18 $atom:type19 $atom:type2
+  $bond:id19 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type19 $atom:type20 $atom:type3
+  $bond:id20 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type20 $atom:type21 $atom:type3
+  $bond:id21 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type21 $atom:type22 $atom:type4
+  $bond:id22 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type22 $atom:type23 $atom:type4
+  $bond:id23 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type23 $atom:type24 $atom:type5
+  $bond:id24 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type24 $atom:type25 $atom:type5
+  $bond:id25 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type25 $atom:type26 $atom:type6
+  $bond:id26 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type26 $atom:type27 $atom:type6
+  $bond:id27 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type27 $atom:type28 $atom:type7
+  $bond:id28 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type28 $atom:type29 $atom:type7
+  $bond:id29 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type29 $atom:type30 $atom:type7
+  $bond:id30 @bond:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type30 $atom:type6 $atom:type1
+  }
+
+  write("Data Angles") {
+  $angle:id1 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type1 $atom:type3 $atom:type1 $atom:type2
+  $angle:id2 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type2 $atom:type4 $atom:type3 $atom:type1
+  $angle:id3 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type3 $atom:type5 $atom:type4 $atom:type3
+  $angle:id4 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type4 $atom:type6 $atom:type5 $atom:type4
+  $angle:id5 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type5 $atom:type7 $atom:type1 $atom:type3
+  $angle:id6 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type6 $atom:type8 $atom:type2 $atom:type1
+  $angle:id7 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type7 $atom:type9 $atom:type8 $atom:type2
+  $angle:id8 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type8 $atom:type10 $atom:type9 $atom:type8
+  $angle:id9 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type9 $atom:type11 $atom:type10 $atom:type9
+  $angle:id10 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type10 $atom:type12 $atom:type10 $atom:type9
+  $angle:id11 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type11 $atom:type13 $atom:type10 $atom:type9
+  $angle:id12 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type12 $atom:type14 $atom:type9 $atom:type8
+  $angle:id13 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type13 $atom:type15 $atom:type9 $atom:type8
+  $angle:id14 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type14 $atom:type16 $atom:type8 $atom:type2
+  $angle:id15 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type15 $atom:type17 $atom:type8 $atom:type2
+  $angle:id16 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type16 $atom:type18 $atom:type2 $atom:type1
+  $angle:id17 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type17 $atom:type19 $atom:type2 $atom:type1
+  $angle:id18 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type18 $atom:type20 $atom:type3 $atom:type1
+  $angle:id19 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type19 $atom:type21 $atom:type3 $atom:type1
+  $angle:id20 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type20 $atom:type22 $atom:type4 $atom:type3
+  $angle:id21 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type21 $atom:type23 $atom:type4 $atom:type3
+  $angle:id22 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type22 $atom:type24 $atom:type5 $atom:type4
+  $angle:id23 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type23 $atom:type25 $atom:type5 $atom:type4
+  $angle:id24 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type24 $atom:type26 $atom:type6 $atom:type5
+  $angle:id25 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type25 $atom:type27 $atom:type6 $atom:type5
+  $angle:id26 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type26 $atom:type28 $atom:type7 $atom:type1
+  $angle:id27 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type27 $atom:type29 $atom:type7 $atom:type1
+  $angle:id28 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type28 $atom:type30 $atom:type7 $atom:type1
+  $angle:id29 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type29 $atom:type6 $atom:type1 $atom:type2
+  $angle:id30 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type30 $atom:type7 $atom:type1 $atom:type2
+  $angle:id31 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type31 $atom:type6 $atom:type1 $atom:type3
+  $angle:id32 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type32 $atom:type20 $atom:type3 $atom:type4
+  $angle:id33 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type33 $atom:type21 $atom:type3 $atom:type4
+  $angle:id34 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type34 $atom:type22 $atom:type4 $atom:type5
+  $angle:id35 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type35 $atom:type23 $atom:type4 $atom:type5
+  $angle:id36 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type36 $atom:type24 $atom:type5 $atom:type6
+  $angle:id37 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type37 $atom:type25 $atom:type5 $atom:type6
+  $angle:id38 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type38 $atom:type7 $atom:type1 $atom:type6
+  $angle:id39 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type39 $atom:type18 $atom:type2 $atom:type8
+  $angle:id40 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type40 $atom:type19 $atom:type2 $atom:type8
+  $angle:id41 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type41 $atom:type16 $atom:type8 $atom:type9
+  $angle:id42 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type42 $atom:type17 $atom:type8 $atom:type9
+  $angle:id43 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type43 $atom:type14 $atom:type9 $atom:type10
+  $angle:id44 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type44 $atom:type15 $atom:type9 $atom:type10
+  $angle:id45 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type45 $atom:type12 $atom:type10 $atom:type11
+  $angle:id46 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type46 $atom:type13 $atom:type10 $atom:type11
+  $angle:id47 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type47 $atom:type13 $atom:type10 $atom:type12
+  $angle:id48 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type48 $atom:type15 $atom:type9 $atom:type14
+  $angle:id49 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type49 $atom:type17 $atom:type8 $atom:type16
+  $angle:id50 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type50 $atom:type19 $atom:type2 $atom:type18
+  $angle:id51 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type51 $atom:type21 $atom:type3 $atom:type20
+  $angle:id52 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type52 $atom:type23 $atom:type4 $atom:type22
+  $angle:id53 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type53 $atom:type25 $atom:type5 $atom:type24
+  $angle:id54 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type54 $atom:type1 $atom:type6 $atom:type26
+  $angle:id55 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type55 $atom:type27 $atom:type6 $atom:type26
+  $angle:id56 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type56 $atom:type1 $atom:type6 $atom:type27
+  $angle:id57 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type57 $atom:type29 $atom:type7 $atom:type28
+  $angle:id58 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type58 $atom:type30 $atom:type7 $atom:type28
+  $angle:id59 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type59 $atom:type30 $atom:type7 $atom:type29
+  $angle:id60 @angle:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type60 $atom:type5 $atom:type6 $atom:type1
+  }
+
+  write("Data Dihedrals") {
+  $dihedral:id1 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type1 $atom:type4 $atom:type3 $atom:type1 $atom:type2
+  $dihedral:id2 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type2 $atom:type5 $atom:type4 $atom:type3 $atom:type1
+  $dihedral:id3 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type3 $atom:type6 $atom:type5 $atom:type4 $atom:type3
+  $dihedral:id4 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type4 $atom:type7 $atom:type1 $atom:type3 $atom:type4
+  $dihedral:id5 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type5 $atom:type8 $atom:type2 $atom:type1 $atom:type3
+  $dihedral:id6 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type6 $atom:type9 $atom:type8 $atom:type2 $atom:type1
+  $dihedral:id7 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type7 $atom:type10 $atom:type9 $atom:type8 $atom:type2
+  $dihedral:id8 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type8 $atom:type11 $atom:type10 $atom:type9 $atom:type8
+  $dihedral:id9 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type9 $atom:type12 $atom:type10 $atom:type9 $atom:type8
+  $dihedral:id10 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type10 $atom:type13 $atom:type10 $atom:type9 $atom:type8
+  $dihedral:id11 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type11 $atom:type14 $atom:type9 $atom:type8 $atom:type2
+  $dihedral:id12 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type12 $atom:type15 $atom:type9 $atom:type8 $atom:type2
+  $dihedral:id13 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type13 $atom:type16 $atom:type8 $atom:type2 $atom:type1
+  $dihedral:id14 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type14 $atom:type17 $atom:type8 $atom:type2 $atom:type1
+  $dihedral:id15 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type15 $atom:type18 $atom:type2 $atom:type1 $atom:type3
+  $dihedral:id16 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type16 $atom:type19 $atom:type2 $atom:type1 $atom:type3
+  $dihedral:id17 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type17 $atom:type20 $atom:type3 $atom:type1 $atom:type2
+  $dihedral:id18 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type18 $atom:type21 $atom:type3 $atom:type1 $atom:type2
+  $dihedral:id19 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type19 $atom:type22 $atom:type4 $atom:type3 $atom:type1
+  $dihedral:id20 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type20 $atom:type23 $atom:type4 $atom:type3 $atom:type1
+  $dihedral:id21 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type21 $atom:type24 $atom:type5 $atom:type4 $atom:type3
+  $dihedral:id22 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type22 $atom:type25 $atom:type5 $atom:type4 $atom:type3
+  $dihedral:id23 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type23 $atom:type26 $atom:type6 $atom:type5 $atom:type4
+  $dihedral:id24 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type24 $atom:type27 $atom:type6 $atom:type5 $atom:type4
+  $dihedral:id25 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type25 $atom:type28 $atom:type7 $atom:type1 $atom:type2
+  $dihedral:id26 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type26 $atom:type29 $atom:type7 $atom:type1 $atom:type2
+  $dihedral:id27 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type27 $atom:type30 $atom:type7 $atom:type1 $atom:type2
+  $dihedral:id28 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type28 $atom:type5 $atom:type6 $atom:type1 $atom:type2
+  $dihedral:id29 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type29 $atom:type26 $atom:type6 $atom:type1 $atom:type2
+  $dihedral:id30 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type30 $atom:type27 $atom:type6 $atom:type1 $atom:type2
+  $dihedral:id31 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type31 $atom:type5 $atom:type6 $atom:type1 $atom:type3
+  $dihedral:id32 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type32 $atom:type26 $atom:type6 $atom:type1 $atom:type3
+  $dihedral:id33 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type33 $atom:type27 $atom:type6 $atom:type1 $atom:type3
+  $dihedral:id34 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type34 $atom:type28 $atom:type7 $atom:type1 $atom:type3
+  $dihedral:id35 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type35 $atom:type29 $atom:type7 $atom:type1 $atom:type3
+  $dihedral:id36 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type36 $atom:type30 $atom:type7 $atom:type1 $atom:type3
+  $dihedral:id37 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type37 $atom:type6 $atom:type1 $atom:type3 $atom:type4
+  $dihedral:id38 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type38 $atom:type20 $atom:type3 $atom:type4 $atom:type5
+  $dihedral:id39 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type39 $atom:type21 $atom:type3 $atom:type4 $atom:type5
+  $dihedral:id40 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type40 $atom:type22 $atom:type4 $atom:type5 $atom:type6
+  $dihedral:id41 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type41 $atom:type23 $atom:type4 $atom:type5 $atom:type6
+  $dihedral:id42 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type42 $atom:type8 $atom:type2 $atom:type1 $atom:type6
+  $dihedral:id43 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type43 $atom:type18 $atom:type2 $atom:type1 $atom:type6
+  $dihedral:id44 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type44 $atom:type19 $atom:type2 $atom:type1 $atom:type6
+  $dihedral:id45 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type45 $atom:type20 $atom:type3 $atom:type1 $atom:type6
+  $dihedral:id46 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type46 $atom:type21 $atom:type3 $atom:type1 $atom:type6
+  $dihedral:id47 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type47 $atom:type28 $atom:type7 $atom:type1 $atom:type6
+  $dihedral:id48 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type48 $atom:type29 $atom:type7 $atom:type1 $atom:type6
+  $dihedral:id49 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type49 $atom:type30 $atom:type7 $atom:type1 $atom:type6
+  $dihedral:id50 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type50 $atom:type8 $atom:type2 $atom:type1 $atom:type7
+  $dihedral:id51 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type51 $atom:type18 $atom:type2 $atom:type1 $atom:type7
+  $dihedral:id52 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type52 $atom:type19 $atom:type2 $atom:type1 $atom:type7
+  $dihedral:id53 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type53 $atom:type20 $atom:type3 $atom:type1 $atom:type7
+  $dihedral:id54 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type54 $atom:type21 $atom:type3 $atom:type1 $atom:type7
+  $dihedral:id55 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type55 $atom:type5 $atom:type6 $atom:type1 $atom:type7
+  $dihedral:id56 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type56 $atom:type26 $atom:type6 $atom:type1 $atom:type7
+  $dihedral:id57 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type57 $atom:type27 $atom:type6 $atom:type1 $atom:type7
+  $dihedral:id58 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type58 $atom:type18 $atom:type2 $atom:type8 $atom:type9
+  $dihedral:id59 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type59 $atom:type19 $atom:type2 $atom:type8 $atom:type9
+  $dihedral:id60 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type60 $atom:type16 $atom:type8 $atom:type9 $atom:type10
+  $dihedral:id61 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type61 $atom:type17 $atom:type8 $atom:type9 $atom:type10
+  $dihedral:id62 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type62 $atom:type14 $atom:type9 $atom:type10 $atom:type11
+  $dihedral:id63 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type63 $atom:type15 $atom:type9 $atom:type10 $atom:type11
+  $dihedral:id64 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type64 $atom:type14 $atom:type9 $atom:type10 $atom:type12
+  $dihedral:id65 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type65 $atom:type15 $atom:type9 $atom:type10 $atom:type12
+  $dihedral:id66 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type66 $atom:type14 $atom:type9 $atom:type10 $atom:type13
+  $dihedral:id67 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type67 $atom:type15 $atom:type9 $atom:type10 $atom:type13
+  $dihedral:id68 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type68 $atom:type16 $atom:type8 $atom:type9 $atom:type14
+  $dihedral:id69 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type69 $atom:type17 $atom:type8 $atom:type9 $atom:type14
+  $dihedral:id70 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type70 $atom:type16 $atom:type8 $atom:type9 $atom:type15
+  $dihedral:id71 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type71 $atom:type17 $atom:type8 $atom:type9 $atom:type15
+  $dihedral:id72 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type72 $atom:type18 $atom:type2 $atom:type8 $atom:type16
+  $dihedral:id73 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type73 $atom:type19 $atom:type2 $atom:type8 $atom:type16
+  $dihedral:id74 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type74 $atom:type18 $atom:type2 $atom:type8 $atom:type17
+  $dihedral:id75 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type75 $atom:type19 $atom:type2 $atom:type8 $atom:type17
+  $dihedral:id76 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type76 $atom:type22 $atom:type4 $atom:type3 $atom:type20
+  $dihedral:id77 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type77 $atom:type23 $atom:type4 $atom:type3 $atom:type20
+  $dihedral:id78 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type78 $atom:type22 $atom:type4 $atom:type3 $atom:type21
+  $dihedral:id79 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type79 $atom:type23 $atom:type4 $atom:type3 $atom:type21
+  $dihedral:id80 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type80 $atom:type24 $atom:type5 $atom:type4 $atom:type22
+  $dihedral:id81 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type81 $atom:type25 $atom:type5 $atom:type4 $atom:type22
+  $dihedral:id82 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type82 $atom:type24 $atom:type5 $atom:type4 $atom:type23
+  $dihedral:id83 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type83 $atom:type25 $atom:type5 $atom:type4 $atom:type23
+  $dihedral:id84 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type84 $atom:type1 $atom:type6 $atom:type5 $atom:type24
+  $dihedral:id85 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type85 $atom:type26 $atom:type6 $atom:type5 $atom:type24
+  $dihedral:id86 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type86 $atom:type27 $atom:type6 $atom:type5 $atom:type24
+  $dihedral:id87 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type87 $atom:type1 $atom:type6 $atom:type5 $atom:type25
+  $dihedral:id88 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type88 $atom:type26 $atom:type6 $atom:type5 $atom:type25
+  $dihedral:id89 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type89 $atom:type27 $atom:type6 $atom:type5 $atom:type25
+  $dihedral:id90 @dihedral:1-BUTYL-1-METHYLPYRROLIDINIUM_PLUS_type90 $atom:type4 $atom:type5 $atom:type6 $atom:type1
+  }
+
+}
