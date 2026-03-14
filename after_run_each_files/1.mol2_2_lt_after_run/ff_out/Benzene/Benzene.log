@@ -1,0 +1,59 @@
+2026-03-14 14:51:47 — INFO — INPUT FILE: /home/users/Beom/work/1.Project/0.automization/automization_lammps_input/1.mol2_2_lt_after_run/input_files/Benzene.mol2
+2026-03-14 14:51:47 — INFO — NUMBER OF OPTIMIZATIONS: 3
+2026-03-14 14:51:47 — INFO — Parsing molecule from input: /home/users/Beom/work/1.Project/0.automization/automization_lammps_input/1.mol2_2_lt_after_run/input_files/Benzene.mol2
+2026-03-14 14:51:47 — INFO — Retreiving atom names form MOL:/home/users/Beom/work/1.Project/0.automization/automization_lammps_input/1.mol2_2_lt_after_run/input_files/Benzene.mol2
+2026-03-14 14:51:47 — INFO — Center of mass position:  0.000  0.000  0.000
+2026-03-14 14:51:47 — INFO — Closest atom to the center of mass: C  5 with distance :  1.395  (A) 
+2026-03-14 14:51:47 — INFO — MOLECULE CHARGE USED: 0
+2026-03-14 14:51:47 — INFO — CHARGE ALGORITHM USED: CM1A
+2026-03-14 14:51:47 — INFO — RESIDUE NAME USED: C6H6
+2026-03-14 14:51:47 — INFO — Parsing Bonds, Angles and dihedrals
+2026-03-14 14:51:47 — INFO — Parsing Atoms
+2026-03-14 14:51:47 — INFO — --- SUMMARY MOLECULE STRUCTURE ---
+2026-03-14 14:51:47 — INFO — Number of Atoms: 15
+2026-03-14 14:51:47 — INFO — Number of Variable Bonds: 11
+2026-03-14 14:51:47 — INFO — Number of Additional Bonds: 1
+2026-03-14 14:51:47 — INFO — Number of Variable Angles: 10
+2026-03-14 14:51:47 — INFO — Number of Additional Angles: 8
+2026-03-14 14:51:47 — INFO — Number of Variable Torsions: 9
+2026-03-14 14:51:47 — INFO — Number of Additional Torsions: 21
+2026-03-14 14:51:47 — INFO — Number of excluded Atoms: 0
+2026-03-14 14:51:47 — INFO — Generating Zmat
+2026-03-14 14:51:47 — INFO — Running BOSS
+2026-03-14 14:51:49 — INFO — Running BOSS optimization ... 1
+2026-03-14 14:51:50 — INFO — Running BOSS optimization ... 2
+2026-03-14 14:51:51 — INFO — Running BOSS optimization ... 3
+2026-03-14 14:51:51 — INFO — Parsing BOSS molecule outputs
+2026-03-14 14:51:51 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:51:51 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:51:51 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:51:51 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:51:51 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:51:51 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:51:51 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:51:51 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:51:51 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:51:51 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:51:51 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:51:51 — WARNING — Duplicate names in input file found! Using new generated names
+2026-03-14 14:51:51 — INFO — Generating Q inputs
+2026-03-14 14:51:51 — INFO — Generating Gromacs inputs
+2026-03-14 14:51:51 — INFO — Generating CHARMM/NAMD inputs
+2026-03-14 14:51:51 — INFO — Generating TINKER inputs
+2026-03-14 14:51:51 — INFO — Generating openMM inputs
+2026-03-14 14:51:51 — INFO — Generating PQR inputs
+2026-03-14 14:51:51 — INFO — Generating DESMOND inputs
+2026-03-14 14:51:51 — INFO — Generating LAMMPS inputs
+2026-03-14 14:51:51 — INFO — Generating XPLOR inputs
+2026-03-14 14:51:51 — INFO —             
+    
+                    LigParGen finished succesfully!
+    
+    Please do not forget to cite the following references: 
+
+        1. LigParGen web server: an automatic OPLS-AA parameter generator for organic ligands  
+           Leela S. Dodda  Israel Cabeza de Vaca  Julian Tirado-Rives William L. Jorgensen 
+           Nucleic Acids Research, Volume 45, Issue W1, 3 July 2017, Pages W331–W336
+
+        2. 1.14*CM1A-LBCC: Localized Bond-Charge Corrected CM1A Charges for Condensed-Phase Simulations
+    

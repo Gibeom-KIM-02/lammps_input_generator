@@ -1,0 +1,42 @@
+*Generated with LigParGen (israel.cabezadevaca@yale.edu)
+
+{C6H}
+[atoms]
+   1   C05       C805        -0.1473
+   2   C03       C803        -0.1473
+   3   C04       C804        -0.1473
+   4   C01       C801        -0.1473
+   5   C02       C802        -0.1473
+   6   C00       C800        -0.1473
+   7   H06       H806         0.1472
+   8   H07       H807         0.1472
+   9   H08       H808         0.1474
+  10   H09       H809         0.1474
+  11   H0A       H810         0.1472
+  12   H0B       H811         0.1472
+
+[bonds]
+C01       C00       
+C02       C00       
+C03       C01       
+C04       C02       
+C05       C04       
+H06       C05       
+H07       C03       
+H08       C04       
+H09       C01       
+H0A       C02       
+H0B       C00       
+C05       C03       
+
+[impropers]
+C01       C00       C02       H0B       
+C00       C01       C03       H09       
+C00       C02       C04       H0A       
+C01       C03       C05       H07       
+C02       C04       C05       H08       
+C04       C05       C03       H06       
+
+[charge_groups]
+C00 C01 C02 C03 C04 C05 H06 H07 H08 H09 H0A H0B 
+

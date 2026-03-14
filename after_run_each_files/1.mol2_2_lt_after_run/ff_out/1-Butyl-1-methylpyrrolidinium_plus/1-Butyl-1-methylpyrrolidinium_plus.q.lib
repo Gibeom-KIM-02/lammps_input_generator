@@ -1,0 +1,72 @@
+*Generated with LigParGen (israel.cabezadevaca@yale.edu)
+
+{1-B}
+[atoms]
+   1   N00       N800         0.2562
+   2   C01       C801        -0.1859
+   3   C02       C802        -0.1964
+   4   C03       C803        -0.1910
+   5   C04       C804        -0.2059
+   6   C05       C805        -0.1800
+   7   C06       C806        -0.2287
+   8   C07       C807        -0.1966
+   9   C08       C808        -0.1841
+  10   C09       C809        -0.2189
+  11   H0A       H810         0.0892
+  12   H0B       H811         0.0892
+  13   H0C       H812         0.0892
+  14   H0D       H813         0.0891
+  15   H0E       H814         0.0891
+  16   H0F       H815         0.1242
+  17   H0G       H816         0.1242
+  18   H0H       H817         0.1401
+  19   H0I       H818         0.1401
+  20   H0J       H819         0.1559
+  21   H0K       H820         0.1559
+  22   H0M       H821         0.1309
+  23   H0N       H822         0.1309
+  24   H0O       H823         0.1328
+  25   H0P       H824         0.1328
+  26   H0Q       H825         0.1492
+  27   H0R       H826         0.1492
+  28   H0S       H827         0.1398
+  29   H0T       H828         0.1398
+  30   H0U       H829         0.1398
+
+[bonds]
+C01       N00       
+C02       N00       
+C03       C02       
+C04       C03       
+C05       C04       
+C06       N00       
+C07       C01       
+C08       C07       
+C09       C08       
+H0A       C09       
+H0B       C09       
+H0C       C09       
+H0D       C08       
+H0E       C08       
+H0F       C07       
+H0G       C07       
+H0H       C01       
+H0I       C01       
+H0J       C02       
+H0K       C02       
+H0M       C03       
+H0N       C03       
+H0O       C04       
+H0P       C04       
+H0Q       C05       
+H0R       C05       
+H0S       C06       
+H0T       C06       
+H0U       C06       
+C05       N00       
+
+[impropers]
+
+[charge_groups]
+N00 C01 C02 C03 C04 C05 C06 C07 C08 C09 H0A H0B H0C H0D H0E H0F H0G H0H H0I H0J H0K H0M H0N H0O H0P H0Q H0R H0S H0T H0U 
+
