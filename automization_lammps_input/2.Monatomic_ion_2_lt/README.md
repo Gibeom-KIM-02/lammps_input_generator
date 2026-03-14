@@ -147,17 +147,27 @@ bash README_run.sh
 
 ---
 
-## License / Credits
-The original code and workflow assembly in this repository are distributed under the MIT License.
+## Credits
+
+Please cite or acknowledge the following tools as appropriate:
+- LigParGen
+- Moltemplate
+- ltemplify.py
+
+Custom workflow scripting and post-processing are repository-specific.
+
+## License
+
+The original code and workflow assembly in this repository are distributed under the **MIT License**.
 
 Copyright (c) 2025 Gibeom Kim, THEMMES Group
 - Custom generator: `scripts/make_monatomic_ion_2_lt.py`
 
 This repository may invoke or rely on third-party software distributed under their own licenses, including Moltemplate and LigParGen. Those components remain the property of their respective authors and are subject to their original license terms.
 
-Moltemplate — MIT License
-Copyright (c) 2013, Andrew Jewett, University of California Santa Barbara
+- Moltemplate — MIT License  
+  Copyright (c) 2013, Andrew Jewett, University of California Santa Barbara
 
-LigParGen — MIT License
-Copyright (c) 2020 Israel Cabeza de Vaca Lopez
+- LigParGen — MIT License  
+  Copyright (c) 2020 Israel Cabeza de Vaca Lopez
 
