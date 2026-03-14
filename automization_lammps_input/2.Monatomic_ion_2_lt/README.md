@@ -156,6 +156,8 @@ Please cite or acknowledge the following tools as appropriate:
 
 Custom workflow scripting and post-processing are repository-specific.
 
+---
+
 ## License
 
 The original code and workflow assembly in this repository are distributed under the **MIT License**.
