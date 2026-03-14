@@ -24,7 +24,7 @@ fix fxnpt all npt temp 300.0 300.0 100.0 iso 100.0 100.0 1000.0 drag 1.0
 dump dumpnpt all custom 2000 traj_npt.lammpstrj id mol type x y z
 thermo 500
 timestep 2.0
-run 100000
+run 5000000
 
 unfix fxnpt
 write_data   system_after_npt.data
