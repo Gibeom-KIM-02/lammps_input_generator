@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Rb
+# Atomic number: 37
+# UFF type: Rb
+# UFF atom SMARTS rule: [#37]
+# UFF raw params: r1=2.26, theta0=180.0, x1=4.114, D1=0.04, zeta=12.0, Z1=1.592, Vi=0.0, Uj=0.2, Xi=2.331, Hard=1.846, Radius=2.77
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Rb {
+  write_once("Data Masses") {
+    @atom:Rb 85.46780000
+  }
+
+  write("Data Atoms") {
+    $atom:Rb $mol:. @atom:Rb 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Rb @atom:Rb 0.04000000 3.66515733
+  }
+}

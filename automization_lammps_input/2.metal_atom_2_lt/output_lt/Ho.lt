@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Ho
+# Atomic number: 67
+# UFF type: Ho6+3
+# UFF atom SMARTS rule: [#67]
+# UFF raw params: r1=1.696, theta0=90.0, x1=3.409, D1=0.007, zeta=12.0, Z1=3.416, Vi=0.0, Uj=0.1, Xi=3.127, Hard=2.891, Radius=1.925
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Ho {
+  write_once("Data Masses") {
+    @atom:Ho 164.93033000
+  }
+
+  write("Data Atoms") {
+    $atom:Ho $mol:. @atom:Ho 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Ho @atom:Ho 0.00700000 3.03707373
+  }
+}

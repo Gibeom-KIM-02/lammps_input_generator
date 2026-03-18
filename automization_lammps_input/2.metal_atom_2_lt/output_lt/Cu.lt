@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Cu
+# Atomic number: 29
+# UFF type: Cu3+1
+# UFF atom SMARTS rule: [#29]
+# UFF raw params: r1=1.302, theta0=109.47, x1=3.495, D1=0.005, zeta=12.0, Z1=1.756, Vi=0.0, Uj=0.7, Xi=4.2, Hard=4.22, Radius=1.434
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Cu {
+  write_once("Data Masses") {
+    @atom:Cu 63.54600000
+  }
+
+  write("Data Atoms") {
+    $atom:Cu $mol:. @atom:Cu 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Cu @atom:Cu 0.00500000 3.11369102
+  }
+}

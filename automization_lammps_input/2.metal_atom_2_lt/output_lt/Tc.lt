@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Tc
+# Atomic number: 43
+# UFF type: Tc6+5
+# UFF atom SMARTS rule: [#43]
+# UFF raw params: r1=1.322, theta0=90.0, x1=2.998, D1=0.048, zeta=12.0, Z1=3.4, Vi=0.0, Uj=0.2, Xi=3.29, Hard=3.99, Radius=1.5
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Tc {
+  write_once("Data Masses") {
+    @atom:Tc 98.00000000
+  }
+
+  write("Data Atoms") {
+    $atom:Tc $mol:. @atom:Tc 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Tc @atom:Tc 0.04800000 2.67091436
+  }
+}

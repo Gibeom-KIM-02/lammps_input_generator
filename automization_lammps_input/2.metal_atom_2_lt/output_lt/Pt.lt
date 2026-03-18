@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Pt
+# Atomic number: 78
+# UFF type: Pt4+2
+# UFF atom SMARTS rule: [#78]
+# UFF raw params: r1=1.364, theta0=90.0, x1=2.754, D1=0.08, zeta=12.0, Z1=3.382, Vi=0.0, Uj=0.1, Xi=4.79, Hard=4.43, Radius=1.557
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Pt {
+  write_once("Data Masses") {
+    @atom:Pt 195.08400000
+  }
+
+  write("Data Atoms") {
+    $atom:Pt $mol:. @atom:Pt 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Pt @atom:Pt 0.08000000 2.45353507
+  }
+}

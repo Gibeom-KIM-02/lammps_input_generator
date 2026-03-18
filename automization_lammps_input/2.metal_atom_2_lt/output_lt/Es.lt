@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Es
+# Atomic number: 99
+# UFF type: Es6+3
+# UFF atom SMARTS rule: [#99]
+# UFF raw params: r1=1.724, theta0=90.0, x1=3.299, D1=0.012, zeta=12.0, Z1=3.9, Vi=0.0, Uj=0.0, Xi=3.333, Hard=3.089, Radius=1.9
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Es {
+  write_once("Data Masses") {
+    @atom:Es 252.00000000
+  }
+
+  write("Data Atoms") {
+    $atom:Es $mol:. @atom:Es 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Es @atom:Es 0.01200000 2.93907487
+  }
+}

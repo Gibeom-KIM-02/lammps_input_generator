@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Gd
+# Atomic number: 64
+# UFF type: Gd6+3
+# UFF atom SMARTS rule: [#64]
+# UFF raw params: r1=1.735, theta0=90.0, x1=3.368, D1=0.009, zeta=12.0, Z1=3.3, Vi=0.0, Uj=0.1, Xi=3.1665, Hard=2.9745, Radius=1.968
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Gd {
+  write_once("Data Masses") {
+    @atom:Gd 157.25000000
+  }
+
+  write("Data Atoms") {
+    $atom:Gd $mol:. @atom:Gd 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Gd @atom:Gd 0.00900000 3.00054688
+  }
+}

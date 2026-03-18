@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Re
+# Atomic number: 75
+# UFF type: Re6+5
+# UFF atom SMARTS rule: [#75]
+# UFF raw params: r1=1.372, theta0=90.0, x1=2.954, D1=0.066, zeta=12.0, Z1=3.7, Vi=0.0, Uj=0.1, Xi=3.96, Hard=3.92, Radius=1.6
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Re {
+  write_once("Data Masses") {
+    @atom:Re 186.20700000
+  }
+
+  write("Data Atoms") {
+    $atom:Re $mol:. @atom:Re 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Re @atom:Re 0.06600000 2.63171481
+  }
+}

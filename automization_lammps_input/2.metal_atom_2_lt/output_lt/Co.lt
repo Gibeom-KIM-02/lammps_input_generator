@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Co
+# Atomic number: 27
+# UFF type: Co6+3
+# UFF atom SMARTS rule: [#27]
+# UFF raw params: r1=1.241, theta0=90.0, x1=2.872, D1=0.014, zeta=12.0, Z1=2.43, Vi=0.0, Uj=0.7, Xi=4.105, Hard=4.175, Radius=1.406
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Co {
+  write_once("Data Masses") {
+    @atom:Co 58.93319400
+  }
+
+  write("Data Atoms") {
+    $atom:Co $mol:. @atom:Co 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Co @atom:Co 0.01400000 2.55866112
+  }
+}

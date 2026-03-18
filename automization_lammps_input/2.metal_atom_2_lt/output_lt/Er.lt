@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Er
+# Atomic number: 68
+# UFF type: Er6+3
+# UFF atom SMARTS rule: [#68]
+# UFF raw params: r1=1.673, theta0=90.0, x1=3.391, D1=0.007, zeta=12.0, Z1=3.3, Vi=0.0, Uj=0.1, Xi=3.1865, Hard=2.9145, Radius=1.915
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Er {
+  write_once("Data Masses") {
+    @atom:Er 167.25900000
+  }
+
+  write("Data Atoms") {
+    $atom:Er $mol:. @atom:Er 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Er @atom:Er 0.00700000 3.02103755
+  }
+}

@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Bi
+# Atomic number: 83
+# UFF type: Bi3+3
+# UFF atom SMARTS rule: [#83]
+# UFF raw params: r1=1.512, theta0=90.0, x1=4.37, D1=0.518, zeta=13.0, Z1=2.47, Vi=1.0, Uj=0.1, Xi=4.69, Hard=3.74, Radius=1.514
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Bi {
+  write_once("Data Masses") {
+    @atom:Bi 208.98040000
+  }
+
+  write("Data Atoms") {
+    $atom:Bi $mol:. @atom:Bi 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Bi @atom:Bi 0.51800000 3.89322740
+  }
+}

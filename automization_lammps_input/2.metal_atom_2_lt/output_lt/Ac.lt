@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Ac
+# Atomic number: 89
+# UFF type: Ac6+3
+# UFF atom SMARTS rule: [#89]
+# UFF raw params: r1=1.983, theta0=90.0, x1=3.478, D1=0.033, zeta=12.0, Z1=3.9, Vi=0.0, Uj=0.0, Xi=2.835, Hard=2.835, Radius=2.108
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Ac {
+  write_once("Data Masses") {
+    @atom:Ac 227.00000000
+  }
+
+  write("Data Atoms") {
+    $atom:Ac $mol:. @atom:Ac 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Ac @atom:Ac 0.03300000 3.09854574
+  }
+}

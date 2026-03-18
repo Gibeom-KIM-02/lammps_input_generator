@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Pm
+# Atomic number: 61
+# UFF type: Pm6+3
+# UFF atom SMARTS rule: [#61]
+# UFF raw params: r1=1.801, theta0=90.0, x1=3.547, D1=0.009, zeta=12.0, Z1=3.3, Vi=0.0, Uj=0.1, Xi=2.881, Hard=2.673, Radius=2.0
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Pm {
+  write_once("Data Masses") {
+    @atom:Pm 145.00000000
+  }
+
+  write("Data Atoms") {
+    $atom:Pm $mol:. @atom:Pm 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Pm @atom:Pm 0.00900000 3.16001775
+  }
+}

@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Ti
+# Atomic number: 22
+# UFF type: Ti6+4
+# UFF atom SMARTS rule: [#22]
+# UFF raw params: r1=1.412, theta0=90.0, x1=3.175, D1=0.017, zeta=12.0, Z1=2.659, Vi=0.0, Uj=0.7, Xi=3.47, Hard=3.38, Radius=1.607
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Ti {
+  write_once("Data Masses") {
+    @atom:Ti 47.86700000
+  }
+
+  write("Data Atoms") {
+    $atom:Ti $mol:. @atom:Ti 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Ti @atom:Ti 0.01700000 2.82860343
+  }
+}

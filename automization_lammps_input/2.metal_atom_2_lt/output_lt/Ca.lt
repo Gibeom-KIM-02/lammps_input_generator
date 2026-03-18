@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Ca
+# Atomic number: 20
+# UFF type: Ca6+2
+# UFF atom SMARTS rule: [#20]
+# UFF raw params: r1=1.761, theta0=90.0, x1=3.399, D1=0.238, zeta=12.0, Z1=2.141, Vi=0.0, Uj=0.7, Xi=3.231, Hard=2.88, Radius=2.0
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Ca {
+  write_once("Data Masses") {
+    @atom:Ca 40.07800000
+  }
+
+  write("Data Atoms") {
+    $atom:Ca $mol:. @atom:Ca 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Ca @atom:Ca 0.23800000 3.02816474
+  }
+}

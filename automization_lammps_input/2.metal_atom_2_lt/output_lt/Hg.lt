@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Hg
+# Atomic number: 80
+# UFF type: Hg1+2
+# UFF atom SMARTS rule: [#80]
+# UFF raw params: r1=1.34, theta0=180.0, x1=2.705, D1=0.385, zeta=12.0, Z1=1.75, Vi=0.0, Uj=0.1, Xi=6.27, Hard=4.16, Radius=1.6
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Hg {
+  write_once("Data Masses") {
+    @atom:Hg 200.59200000
+  }
+
+  write("Data Atoms") {
+    $atom:Hg $mol:. @atom:Hg 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Hg @atom:Hg 0.38500000 2.40988103
+  }
+}

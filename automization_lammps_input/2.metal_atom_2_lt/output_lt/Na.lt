@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Na
+# Atomic number: 11
+# UFF type: Na
+# UFF atom SMARTS rule: [#11]
+# UFF raw params: r1=1.539, theta0=180.0, x1=2.983, D1=0.03, zeta=12.0, Z1=1.081, Vi=0.0, Uj=1.25, Xi=2.843, Hard=2.296, Radius=2.085
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Na {
+  write_once("Data Masses") {
+    @atom:Na 22.98976928
+  }
+
+  write("Data Atoms") {
+    $atom:Na $mol:. @atom:Na 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Na @atom:Na 0.03000000 2.65755088
+  }
+}

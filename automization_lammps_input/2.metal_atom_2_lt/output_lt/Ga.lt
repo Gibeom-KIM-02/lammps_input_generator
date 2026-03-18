@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Ga
+# Atomic number: 31
+# UFF type: Ga3+3
+# UFF atom SMARTS rule: [#31]
+# UFF raw params: r1=1.26, theta0=109.47, x1=4.383, D1=0.415, zeta=11.0, Z1=1.821, Vi=0.0, Uj=0.7, Xi=3.641, Hard=3.16, Radius=1.211
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Ga {
+  write_once("Data Masses") {
+    @atom:Ga 69.72300000
+  }
+
+  write("Data Atoms") {
+    $atom:Ga $mol:. @atom:Ga 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Ga @atom:Ga 0.41500000 3.90480908
+  }
+}

@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Ba
+# Atomic number: 56
+# UFF type: Ba6+2
+# UFF atom SMARTS rule: [#56]
+# UFF raw params: r1=2.277, theta0=90.0, x1=3.703, D1=0.364, zeta=12.0, Z1=2.727, Vi=0.0, Uj=0.1, Xi=2.814, Hard=2.396, Radius=2.442
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Ba {
+  write_once("Data Masses") {
+    @atom:Ba 137.32700000
+  }
+
+  write("Data Atoms") {
+    $atom:Ba $mol:. @atom:Ba 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Ba @atom:Ba 0.36400000 3.29899795
+  }
+}

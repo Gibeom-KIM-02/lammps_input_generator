@@ -1,0 +1,20 @@
+# Auto-generated monatomic metal LT for Cd
+# Atomic number: 48
+# UFF type: Cd3+2
+# UFF atom SMARTS rule: [#48]
+# UFF raw params: r1=1.403, theta0=109.47, x1=2.848, D1=0.228, zeta=12.0, Z1=1.65, Vi=0.0, Uj=0.2, Xi=5.034, Hard=3.957, Radius=1.6
+# LJ mapping note: sigma inferred as x1 / 2^(1/6), treating x1 as the LJ minimum-distance parameter
+
+Cd {
+  write_once("Data Masses") {
+    @atom:Cd 112.41400000
+  }
+
+  write("Data Atoms") {
+    $atom:Cd $mol:. @atom:Cd 0.000000 0.0 0.0 0.0
+  }
+
+  write_once("In Settings") {
+    pair_coeff @atom:Cd @atom:Cd 0.22800000 2.53727955
+  }
+}
